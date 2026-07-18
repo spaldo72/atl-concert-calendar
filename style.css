@@ -146,6 +146,133 @@
     .qr img{width:180px;max-width:100%;padding:10px;background:white;border-radius:18px}
     .qr p{color:var(--muted);line-height:1.5}
 
+/* ====================================================== */
+/* TICKET INDEX */
+/* ====================================================== */
+
+.ticket-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.person-card {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.045),
+      rgba(255, 255, 255, 0.02)
+    );
+}
+
+.person-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.person-label {
+  margin: 0 0 5px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.person-card h3 {
+  margin: 0;
+  font-size: 1.75rem;
+}
+
+.ticket-total {
+  min-width: 84px;
+  padding: 12px 14px;
+  text-align: center;
+  border: 1px solid rgba(167, 139, 250, 0.4);
+  border-radius: 16px;
+  background: rgba(139, 92, 246, 0.16);
+}
+
+.ticket-total strong {
+  display: block;
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.ticket-total span {
+  display: block;
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.person-summary {
+  display: grid;
+  grid-template-columns: 0.75fr 1.25fr;
+  gap: 12px;
+  margin: 18px 0;
+}
+
+.person-summary > div {
+  padding: 14px;
+  border-radius: 14px;
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.person-summary span {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.person-summary strong {
+  display: block;
+}
+
+.person-summary small {
+  display: block;
+  margin-top: 5px;
+  color: var(--muted);
+}
+
+.person-shows h4 {
+  margin: 0 0 12px;
+}
+
+.person-shows ul {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.person-show {
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.person-show strong {
+  display: block;
+}
+
+.person-show span {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
   /* ====================================================== */
   /* FOOTER */
   /* ====================================================== */
@@ -155,8 +282,16 @@
   /* ====================================================== */
   /* RESPONSIVE DESIGN */
   /* ====================================================== */
-  
-    @media(max-width:820px){.grid{grid-template-columns:1fr}}
+      
+    @media(max-width:820px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .ticket-card-grid {
+        grid-template-columns: 1fr;
+      }
+    }
     @media(max-width:560px){
       .hero{padding-top:52px}
       .buttons{flex-direction:column}
@@ -174,5 +309,16 @@
       .nav-links {
         flex-wrap: wrap;
         gap: 12px 18px;
+      }
+      .person-card-header {
+        flex-direction: column;
+      }
+
+      .ticket-total {
+        width: 100%;
+      }
+
+      .person-summary {
+        grid-template-columns: 1fr;
       }
     }

@@ -149,6 +149,7 @@ function formatDate(date) {
 
 function renderTicketIndex(index) {
   const root = document.getElementById("ticket-index");
+
   const entries = Object.entries(index).sort((a, b) =>
     a[0].localeCompare(b[0])
   );
@@ -162,53 +163,78 @@ function renderTicketIndex(index) {
     return;
   }
 
-  const table = document.createElement("table");
-  table.className = "ticket-table";
-
-  table.innerHTML = `
-    <thead>
-      <tr>
-        <th>Person</th>
-        <th>Total tickets</th>
-        <th>Upcoming concerts</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  `;
-
-  const body = table.querySelector("tbody");
+  const grid = document.createElement("div");
+  grid.className = "ticket-card-grid";
 
   for (const [person, details] of entries) {
-    const row = document.createElement("tr");
+    const concerts = details.concerts.sort(
+      (a, b) => a.date - b.date
+    );
 
-    const concerts = details.concerts
-      .sort((a, b) => a.date - b.date)
+    const nextConcert = concerts[0];
+
+    const concertList = concerts
       .map(concert => {
         const quantityText =
-          concert.quantity === 1
-            ? ""
-            : ` (${concert.quantity} tickets)`;
+          concert.quantity > 1
+            ? ` · ${concert.quantity} tickets`
+            : "";
 
         return `
-          <div class="ticket-concert">
-            <strong>${concert.title}</strong>${quantityText}
-            <span>${formatDate(concert.date)}</span>
-          </div>
+          <li class="person-show">
+            <strong>${concert.title}</strong>
+            <span>
+              ${formatDate(concert.date)}${quantityText}
+            </span>
+          </li>
         `;
       })
       .join("");
 
-    row.innerHTML = `
-      <td data-label="Person">${person}</td>
-      <td data-label="Total tickets">${details.total}</td>
-      <td data-label="Upcoming concerts">${concerts}</td>
+    const card = document.createElement("article");
+    card.className = "person-card";
+
+    card.innerHTML = `
+      <div class="person-card-header">
+        <div>
+          <p class="person-label">Group member</p>
+          <h3>${person}</h3>
+        </div>
+
+        <div class="ticket-total">
+          <strong>${details.total}</strong>
+          <span>
+            ${details.total === 1 ? "ticket" : "tickets"}
+          </span>
+        </div>
+      </div>
+
+      <div class="person-summary">
+        <div>
+          <span>Upcoming shows</span>
+          <strong>${concerts.length}</strong>
+        </div>
+
+        <div>
+          <span>Next show</span>
+          <strong>${nextConcert.title}</strong>
+          <small>${formatDate(nextConcert.date)}</small>
+        </div>
+      </div>
+
+      <div class="person-shows">
+        <h4>Upcoming concerts</h4>
+        <ul>
+          ${concertList}
+        </ul>
+      </div>
     `;
 
-    body.appendChild(row);
+    grid.appendChild(card);
   }
 
   root.innerHTML = "";
-  root.appendChild(table);
+  root.appendChild(grid);
 }
 
 async function loadTickets() {
@@ -237,7 +263,8 @@ async function loadTickets() {
 
     renderTicketIndex(ticketIndex);
     status.textContent = "Calendar loaded";
-  } catch (error) {
+  } 
+  catch (error) {
     console.error(error);
 
     status.textContent = "Calendar unavailable";
