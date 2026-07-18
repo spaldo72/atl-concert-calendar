@@ -1,184 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Subscribe to the shared Atlanta concert calendar and receive automatic updates.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Atlanta Concert Calendar</title>
+  <style>
+    :root {
+      --bg:#070a11; --panel:#111827; --panel2:#182233; --text:#f8fafc;
+      --muted:#b6c0cf; --accent:#8b5cf6; --accent2:#ec4899; --line:rgba(255,255,255,.1);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#0b1020,#070a11);color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+    .hero{padding:72px 20px 110px;background:
+      radial-gradient(circle at 20% 0%,rgba(139,92,246,.28),transparent 34%),
+      radial-gradient(circle at 85% 10%,rgba(236,72,153,.2),transparent 28%);
+      border-bottom:1px solid var(--line)}
+    .wrap{width:min(1100px,calc(100% - 28px));margin:auto}
+    .eyebrow{display:inline-block;padding:8px 12px;border:1px solid var(--line);
+      border-radius:999px;color:#e9d5ff;font-size:.82rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+    h1{font-size:clamp(3rem,8vw,6rem);line-height:.92;letter-spacing:-.055em;margin:22px 0 18px;max-width:800px}
+    .hero p{max-width:690px;color:var(--muted);font-size:1.18rem;line-height:1.65}
+    .buttons{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0 20px;
+      border-radius:14px;text-decoration:none;font-weight:800;border:1px solid transparent;cursor:pointer}
+    .primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:white}
+    .secondary{background:rgba(255,255,255,.07);border-color:var(--line);color:white}
+    main{padding:40px 0 70px}
+    .grid{display:grid;grid-template-columns:1.45fr .75fr;gap:24px;align-items:start}
+    .card{background:linear-gradient(180deg,rgba(24,34,51,.95),rgba(17,24,39,.95));
+      border:1px solid var(--line);border-radius:24px;box-shadow:0 28px 70px rgba(0,0,0,.4)}
+    .inner{padding:30px}
+    .head{display:flex;justify-content:space-between;gap:16px;align-items:end;margin-bottom:22px}
+    h2{margin:0;font-size:2rem;letter-spacing:-.03em}
+    .sub{margin:6px 0 0;color:var(--muted);line-height:1.5}
+    .status{color:#c4b5fd;font-size:.86rem}
+    .events{display:grid;gap:12px}
+    .event{display:grid;grid-template-columns:76px 1fr;gap:16px;padding:16px;border:1px solid var(--line);
+      border-radius:18px;background:rgba(255,255,255,.035)}
+    .date{display:grid;place-items:center;align-content:center;min-height:74px;border-radius:15px;
+      background:linear-gradient(145deg,rgba(139,92,246,.3),rgba(236,72,153,.18));border:1px solid var(--line)}
+    .month{font-size:.76rem;font-weight:900;letter-spacing:.12em;color:#ddd6fe}
+    .day{font-size:1.75rem;font-weight:900;line-height:1}
+    .event h3{margin:2px 0 8px;font-size:1.08rem}
+    .meta{color:var(--muted);font-size:.92rem;line-height:1.5}
+    .empty{padding:24px;border:1px dashed rgba(255,255,255,.16);border-radius:18px;color:var(--muted);text-align:center}
+    .side{display:grid;gap:24px}
+    .tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}
+    .tab{border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--muted);
+      padding:9px 12px;border-radius:999px;font:inherit;font-weight:700;cursor:pointer}
+    .tab.active{color:white;background:rgba(139,92,246,.25);border-color:rgba(167,139,250,.55)}
+    .instructions{color:var(--muted);line-height:1.65}
+    .instructions li+li{margin-top:8px}
+    .copyrow{display:flex;gap:8px;margin-top:16px}
+    input{width:100%;min-width:0;padding:11px 12px;border-radius:12px;border:1px solid var(--line);
+      background:rgba(0,0,0,.22);color:#dbeafe}
+    button.copy{border:1px solid rgba(167,139,250,.45);background:rgba(139,92,246,.18);color:white;
+      border-radius:12px;padding:0 14px;font-weight:800;cursor:pointer}
+    .qr{text-align:center}
+    .qr img{width:180px;max-width:100%;padding:10px;background:white;border-radius:18px}
+    .qr p{color:var(--muted);line-height:1.5}
+    footer{padding:26px;color:#7f8a9b;text-align:center;font-size:.88rem}
+    @media(max-width:820px){.grid{grid-template-columns:1fr}}
+    @media(max-width:560px){
+      .hero{padding-top:52px}
+      .buttons{flex-direction:column}
+      .btn{width:100%}
+      .head{flex-direction:column;align-items:start}
+      .event{grid-template-columns:64px 1fr}
+      .copyrow{flex-direction:column}
+      button.copy{min-height:44px}
+    }
+  </style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Live music · Atlanta</span>
+    <h1>Concerts we should go to.</h1>
+    <p>Subscribe once and keep the group’s upcoming Atlanta shows in your calendar. New concerts, changes, and cancellations update automatically.</p>
+    <div class="buttons">
+      <a class="btn primary" href="webcal://spaldo72.github.io/atl-concert-calendar/calendar.ics">Subscribe with Apple Calendar</a>
+      <a class="btn secondary" href="#subscribe">Google &amp; other calendars</a>
+    </div>
+  </div>
+</header>
 
-<title>Atlanta Concert Calendar</title>
+<main>
+<div class="wrap grid">
+  <section class="card">
+    <div class="inner">
+      <div class="head">
+        <div>
+          <h2>Upcoming concerts</h2>
+          <p class="sub">Loaded automatically from <code>calendar.ics</code>.</p>
+        </div>
+        <div class="status" id="updated">Checking calendar…</div>
+      </div>
+      <div class="events" id="events"><div class="empty">Loading upcoming concerts…</div></div>
+    </div>
+  </section>
 
-<style>
-body{
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    background:#f2f2f2;
-    margin:0;
-    padding:40px;
-}
+  <aside class="side">
+    <section class="card" id="subscribe">
+      <div class="inner">
+        <h2>Subscribe</h2>
+        <p class="sub">Choose your calendar app.</p>
+        <div class="tabs">
+          <button class="tab active" data-panel="apple">Apple</button>
+          <button class="tab" data-panel="google">Google</button>
+          <button class="tab" data-panel="other">Other</button>
+        </div>
 
-.container{
-    max-width:720px;
-    margin:auto;
-    background:white;
-    padding:40px;
-    border-radius:18px;
-    box-shadow:0 10px 30px rgba(0,0,0,.12);
-}
+        <div class="instructions" id="apple">
+          <ol>
+            <li>Tap the Apple subscription button.</li>
+            <li>Approve opening Calendar if prompted.</li>
+            <li>Tap <strong>Subscribe</strong>, then <strong>Add</strong> or <strong>Done</strong>.</li>
+          </ol>
+          <div class="buttons">
+            <a class="btn primary" href="webcal://spaldo72.github.io/atl-concert-calendar/calendar.ics">Subscribe now</a>
+          </div>
+        </div>
 
-h1{
-    text-align:center;
-    margin-top:0;
-}
+        <div class="instructions" id="google" hidden>
+          <ol>
+            <li>Open Google Calendar in a computer browser.</li>
+            <li>Beside <strong>Other calendars</strong>, click <strong>+</strong>.</li>
+            <li>Select <strong>From URL</strong>.</li>
+            <li>Paste the address below and click <strong>Add calendar</strong>.</li>
+          </ol>
+          <div class="copyrow">
+            <input readonly value="https://spaldo72.github.io/atl-concert-calendar/calendar.ics">
+            <button class="copy" data-copy="https://spaldo72.github.io/atl-concert-calendar/calendar.ics">Copy</button>
+          </div>
+        </div>
 
-p{
-    line-height:1.6;
-}
+        <div class="instructions" id="other" hidden>
+          <p>Look for <strong>Subscribe from web</strong>, <strong>Add by URL</strong>, or <strong>Internet calendar</strong>.</p>
+          <div class="copyrow">
+            <input readonly value="https://spaldo72.github.io/atl-concert-calendar/calendar.ics">
+            <button class="copy" data-copy="https://spaldo72.github.io/atl-concert-calendar/calendar.ics">Copy</button>
+          </div>
+          <div class="buttons">
+            <a class="btn secondary" href="calendar.ics">Download calendar file</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-.button{
-    display:block;
-    width:320px;
-    margin:20px auto;
-    text-align:center;
-    padding:16px;
-    border-radius:10px;
-    text-decoration:none;
-    font-weight:bold;
-    font-size:18px;
-}
+    <section class="card">
+      <div class="inner qr">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQAAAADDfFG0AAAB7klEQVR4nO2ZwW4EIQxDn6v9/19+PSTMMO0eelqQSg7dQViqFTnghMgf4usvoIM6qF/xgtSXRGJKcMFpZ1f2S/KFACEEA0QwxLGzLfs1+SKVMwEMJTS8d3ZlvxYVgqimlpvw2hQlMaH0JfEt6vO8tkK9oAsRTDBGCRivnV3Zr8lXF16s4376GiW5K/vPo6aqC1yCakOxjtfGqNYUgIakE5eEXm3M/sOotGu41BRss3r8xHtUAl4qq7OeYO6Njdl/GJWhpCGsXljNEXD6oTnS3qGV5LgRhZjjJ96glFCevroiFVL2K+T0j1O8uM6r8VNiq1xZnnVX9mtQQjTdaHcRltSSePT1A5VuheqAl5TDaEe2jteOKBSl/4z8dEFS5ai7sl+ESt2FY5zaqeP0j7+j/Fcc5iHXPXnbi+O/7njVmJAxvBcjjzN/Ca9dUTX/yl2AUmP86+v0jz9Ro/oYM686+Gvl6R/nqKeNaUxxN5T3qGJb9mv8BNhd0MNF9D7HT0zxnK96TXRwujq3Zb9KX/Ux/Kqtrv716OuJ0spVl2BZivYSOe/bj5jftys59iVgz/HP/TjH67FyPHL3YLU7723Zr0b1MOeeiHWJrua1D2p+346jIu8Ho+O/nvF83+5seaWs7MS27Jf6rw/9x4P6T6hvJW/8InGNgF4AAAAASUVORK5CYII=" alt="QR code linking to the Atlanta Concert Calendar homepage">
+        <p>Scan this code to open the subscription page on a phone.</p>
+      </div>
+    </section>
+  </aside>
+</div>
+</main>
 
-.subscribe{
-    background:#007AFF;
-    color:white;
-}
-
-.download{
-    background:#ececec;
-    color:black;
-}
-
-.section{
-    margin-top:40px;
-}
-
-code{
-    background:#efefef;
-    padding:2px 5px;
-}
-
-.footer{
-    margin-top:40px;
-    text-align:center;
-    color:#888;
-    font-size:14px;
-}
-
-input{
-    width:100%;
-    padding:10px;
-    font-size:15px;
-}
-
-button{
-    margin-top:10px;
-    padding:10px 18px;
-}
-</style>
+<footer>Maintained by Martin Spalding · Atlanta Concert Calendar</footer>
 
 <script>
-function copyURL()
-{
-navigator.clipboard.writeText("https://spaldo72.github.io/atl-concert-calendar/calendar.ics");
-alert("Calendar URL copied.");
+const FEED = "calendar.ics";
+const tabs = document.querySelectorAll(".tab");
+const panelIds = ["apple","google","other"];
+
+tabs.forEach(tab => tab.addEventListener("click", () => {
+  tabs.forEach(t => t.classList.remove("active"));
+  tab.classList.add("active");
+  panelIds.forEach(id => document.getElementById(id).hidden = id !== tab.dataset.panel);
+}));
+
+document.querySelectorAll("[data-copy]").forEach(button => {
+  button.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(button.dataset.copy);
+      const old = button.textContent;
+      button.textContent = "Copied";
+      setTimeout(() => button.textContent = old, 1400);
+    } catch {
+      prompt("Copy this calendar address:", button.dataset.copy);
+    }
+  });
+});
+
+function unfold(text) {
+  return text.replace(/\r?\n[ \t]/g, "");
 }
+
+function valueOf(block, key) {
+  const line = block.split(/\r?\n/).find(x => x.split(":")[0].split(";")[0].toUpperCase() === key);
+  if (!line) return "";
+  return line.slice(line.indexOf(":")+1)
+    .replace(/\\n/gi," ")
+    .replace(/\\,/g,",")
+    .replace(/\\;/g,";")
+    .replace(/\\\\/g,"\\")
+    .trim();
+}
+
+function parseDate(raw) {
+  if (!raw) return null;
+  if (/^\d{8}$/.test(raw)) {
+    return new Date(+raw.slice(0,4), +raw.slice(4,6)-1, +raw.slice(6,8));
+  }
+  const m = raw.match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})?(Z)?$/);
+  if (!m) return null;
+  const [,y,mo,d,h,mi,s="00",z] = m;
+  return z ? new Date(Date.UTC(+y,+mo-1,+d,+h,+mi,+s)) : new Date(+y,+mo-1,+d,+h,+mi,+s);
+}
+
+function parseICS(text) {
+  return (unfold(text).match(/BEGIN:VEVENT[\s\S]*?END:VEVENT/g) || []).map(block => ({
+    title: valueOf(block,"SUMMARY") || "Untitled concert",
+    location: valueOf(block,"LOCATION"),
+    start: parseDate(valueOf(block,"DTSTART"))
+  })).filter(e => e.start && !isNaN(e.start));
+}
+
+function render(events) {
+  const root = document.getElementById("events");
+  const today = new Date(); today.setHours(0,0,0,0);
+  const upcoming = events.filter(e => e.start >= today).sort((a,b)=>a.start-b.start).slice(0,12);
+
+  if (!upcoming.length) {
+    root.innerHTML = '<div class="empty">No upcoming concerts are currently listed.</div>';
+    return;
+  }
+
+  root.innerHTML = "";
+  upcoming.forEach(e => {
+    const el = document.createElement("article");
+    el.className = "event";
+    const month = e.start.toLocaleString("en-US",{month:"short"}).toUpperCase();
+    const day = e.start.getDate();
+    const dateText = e.start.toLocaleString("en-US",{weekday:"short",month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit"});
+    el.innerHTML = `<div class="date"><div class="month">${month}</div><div class="day">${day}</div></div>
+      <div><h3></h3><div class="meta"><span class="when"></span><br><span class="where"></span></div></div>`;
+    el.querySelector("h3").textContent = e.title;
+    el.querySelector(".when").textContent = dateText;
+    el.querySelector(".where").textContent = e.location || "";
+    root.appendChild(el);
+  });
+}
+
+fetch(FEED,{cache:"no-store"})
+  .then(r => {
+    if (!r.ok) throw new Error("Calendar could not be loaded.");
+    const lm = r.headers.get("Last-Modified");
+    if (lm) document.getElementById("updated").textContent =
+      "Updated " + new Date(lm).toLocaleString("en-US",{month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit"});
+    return r.text();
+  })
+  .then(text => render(parseICS(text)))
+  .catch(err => {
+    console.error(err);
+    document.getElementById("updated").textContent = "Calendar unavailable";
+    document.getElementById("events").innerHTML =
+      '<div class="empty">The calendar feed could not be loaded. The subscription buttons may still work.</div>';
+  });
 </script>
-
-</head>
-
-<body>
-
-<div class="container">
-
-<h1>🎵 Atlanta Concert Calendar</h1>
-
-<p style="text-align:center;">
-Subscribe once and receive automatic updates whenever concerts are added,
-changed or cancelled.
-</p>
-
-<a class="button subscribe"
-href="webcal://spaldo72.github.io/atl-concert-calendar/calendar.ics">
-
-Subscribe on Apple Calendar
-
-</a>
-
-<a class="button download"
-href="calendar.ics">
-
-Download Calendar File
-
-</a>
-
-<div class="section">
-
-<h2>Apple Calendar</h2>
-
-<ol>
-
-<li>Click <b>Subscribe on Apple Calendar</b>.</li>
-
-<li>Approve opening Calendar if asked.</li>
-
-<li>Tap <b>Subscribe</b>.</li>
-
-<li>Done.</li>
-
-</ol>
-
-</div>
-
-<div class="section">
-
-<h2>Google Calendar</h2>
-
-<p>
-
-Google currently requires calendar subscriptions to be added from a desktop web browser.
-
-</p>
-
-<input
-readonly
-value="https://spaldo72.github.io/atl-concert-calendar/calendar.ics">
-
-<button onclick="copyURL()">
-
-Copy Calendar URL
-
-</button>
-
-<ol>
-
-<li>Open Google Calendar on your computer.</li>
-
-<li>Click the + beside <b>Other Calendars</b>.</li>
-
-<li>Select <b>From URL</b>.</li>
-
-<li>Paste the copied URL.</li>
-
-<li>Click <b>Add Calendar</b>.</li>
-
-</ol>
-
-</div>
-
-<div class="footer">
-
-Maintained by Martin Spalding
-
-</div>
-
-</div>
-
 </body>
-
 </html>
