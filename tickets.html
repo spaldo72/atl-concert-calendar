@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta
+    name="description"
+    content="Ticket ownership index for the Atlanta Concert Calendar."
+  >
+
+  <title>Ticket Index | Atlanta Concert Calendar</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ====================================================== -->
+  <!-- TICKET INDEX HEADER -->
+  <!-- ====================================================== -->
+
+  <header class="ticket-hero">
+    <div class="wrap">
+      <p class="eyebrow">Atlanta Concert Calendar</p>
+
+      <h1>Ticket Index</h1>
+
+      <p>
+        Upcoming ticket counts and concert assignments for the group.
+      </p>
+
+      <a class="btn secondary" href="index.html">
+        Return to concert calendar
+      </a>
+    </div>
+  </header>
+
+  <!-- ====================================================== -->
+  <!-- TICKET INDEX -->
+  <!-- ====================================================== -->
+
+  <main>
+    <div class="wrap">
+      <section class="card">
+        <div class="inner">
+
+          <div class="head">
+            <div>
+              <h2>Tickets by person</h2>
+
+              <p class="sub">
+                Loaded automatically from calendar.ics.
+              </p>
+            </div>
+
+            <div class="status" id="ticket-status">
+              Checking calendar…
+            </div>
+          </div>
+
+          <div id="ticket-index">
+            <div class="empty">
+              Loading ticket information…
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ====================================================== -->
+  <!-- FOOTER -->
+  <!-- ====================================================== -->
+
+  <footer>
+    Maintained by Martin Spalding · Atlanta Concert Calendar
+  </footer>
+
+  <!-- ====================================================== -->
+  <!-- JAVASCRIPT -->
+  <!-- ====================================================== -->
+
+  <script src="tickets.js"></script>
+
+</body>
+</html>
