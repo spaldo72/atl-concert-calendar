@@ -50,12 +50,10 @@
     <h1>Concerts we should go to.</h1>
     <p>Subscribe once and keep the group’s upcoming Atlanta shows in your calendar. New concerts, changes, and cancellations update automatically.</p>
 
-    <div class="buttons">
-      <a class="btn primary" href="webcal://spaldo72.github.io/atl-concert-calendar/calendar.ics">
-        Subscribe with Apple Calendar
-      </a>
+    <a class="btn primary" href="#subscribe">
+      Choose Your Calendar
+    </a>
 
-    </div>
   </div>
 </header>
 
@@ -92,6 +90,7 @@
         <div class="tabs">
           <button class="tab active" data-panel="apple">Apple</button>
           <button class="tab" data-panel="google">Google</button>
+          <button class="tab" data-panel="windows">Windows / Outlook</button>
           <button class="tab" data-panel="other">Other</button>
         </div>
 
@@ -116,6 +115,24 @@
           <div class="copyrow">
             <input readonly value="https://spaldo72.github.io/atl-concert-calendar/calendar.ics">
             <button class="copy" data-copy="https://spaldo72.github.io/atl-concert-calendar/calendar.ics">Copy</button>
+          </div>
+        </div>
+
+        <div class="instructions" id="windows" hidden>
+          <ol>
+            <li>Open <strong>Outlook</strong>.</li>
+            <li>Select <strong>Add Calendar</strong>.</li>
+            <li>Choose <strong>Subscribe from Web</strong> (or <strong>From Internet</strong>, depending on your version).</li>
+            <li>Copy and paste the calendar address below.</li>
+            <li>Click <strong>Import</strong> or <strong>Subscribe</strong>.</li>
+          </ol>
+
+          <div class="copyrow">
+            <input readonly value="https://spaldo72.github.io/atl-concert-calendar/calendar.ics">
+            <button class="copy"
+                    data-copy="https://spaldo72.github.io/atl-concert-calendar/calendar.ics">
+              Copy
+            </button>
           </div>
         </div>
 

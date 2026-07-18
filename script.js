@@ -1,7 +1,7 @@
 
 const FEED = "calendar.ics";
 const tabs = document.querySelectorAll(".tab");
-const panelIds = ["apple","google","other"];
+const panelIds = ["apple","google","windows","other"];
 
 tabs.forEach(tab => tab.addEventListener("click", () => {
   tabs.forEach(t => t.classList.remove("active"));
