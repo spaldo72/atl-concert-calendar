@@ -137,6 +137,7 @@
     .tab.active{color:white;background:rgba(139,92,246,.25);border-color:rgba(167,139,250,.55)}
     .instructions{color:var(--muted);line-height:1.65}
     .instructions li+li{margin-top:8px}
+    #subscribe {scroll-margin-top: 88px;}
     .copyrow{display:flex;gap:8px;margin-top:16px}
     input{width:100%;min-width:0;padding:11px 12px;border-radius:12px;border:1px solid var(--line);
       background:rgba(0,0,0,.22);color:#dbeafe}
