@@ -23,179 +23,186 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:20260725-timcappello@atlconcerts
+UID:20260725-timcapello@atlconcerts
 DTSTART;TZID=America/New_York:20260725T200000
 DTEND;TZID=America/New_York:20260725T230000
-SUMMARY:Tim Cappello
-DESCRIPTION:Ticket Status: CONFIRMED\nShow 8:00 PM\nTickets: PK +1\, maybe AK (will be out of town\, who want them? Sorry…)\, Sara\, Holly\, Martin
+SUMMARY:Tim Capello - Drunken Unicorn
+DESCRIPTION:Show 8:00 PM. Tickets: PK +1\, maybe AK (out of town)\, Sara\, Holly\, Martin
 LOCATION:The Drunken Unicorn\, 736 Ponce De Leon Pl NE\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20260815-helmet@atlconcerts
 DTSTART;TZID=America/New_York:20260815T193000
 DTEND;TZID=America/New_York:20260815T230000
-SUMMARY:Helmet
-DESCRIPTION:Ticket Status: TENTATIVE\nShow 7:30 PM (w/ Down)\nTickets: none yet
+SUMMARY:Helmet (w/ Down) - The Eastern
+DESCRIPTION:Show 7:30 PM. No tickets purchased yet
 LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA
+END:VEVENT
+BEGIN:VEVENT
+UID:20260822-testimint@atlconcerts
+DTSTART;TZID=America/New_York:20260822T200000
+DTEND;TZID=America/New_York:20260822T230000
+SUMMARY:testimint - The Treehouse
+DESCRIPTION:Time estimated (8:00 PM) - could not confirm exact showtime. No tickets purchased yet
 END:VEVENT
 BEGIN:VEVENT
 UID:20260905-miked@atlconcerts
 DTSTART;TZID=America/New_York:20260905T200000
 DTEND;TZID=America/New_York:20260905T230000
-SUMMARY:Mike D (Beastie Boys)
-DESCRIPTION:Ticket Status: CONFIRMED\nShow 8:00 PM\nTickets: Jeff 2 tix
+SUMMARY:Mike D (Beastie Boys) - The Eastern
+DESCRIPTION:Show 8:00 PM. Tickets: Jeff (2)
 LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20260909-uncleacid@atlconcerts
 DTSTART;TZID=America/New_York:20260909T190000
 DTEND;TZID=America/New_York:20260909T230000
-SUMMARY:Uncle Acid & The Deadbeats
-DESCRIPTION:Ticket Status: CONFIRMED\nDoors 7:00 PM (w/ Messa)\nTickets: Jeff\, Walter\, Katie\, PK\, Seth
+SUMMARY:Uncle Acid & The Deadbeats - Masquerade Heaven
+DESCRIPTION:Doors 7:00 PM. Tickets: Jeff\, Walter\, Katie\, PK\, Seth
 LOCATION:The Masquerade - Heaven\, 50 Lower Alabama St\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20260916-automatic@atlconcerts
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260917
-SUMMARY:Automatic
-DESCRIPTION:Ticket Status: TENTATIVE\nShowtime not confirmed - listed with information available\nTickets: none yet
+DTSTART;TZID=America/New_York:20260916T200000
+DTEND;TZID=America/New_York:20260916T230000
+SUMMARY:Automatic - The EARL
+DESCRIPTION:Time estimated (8:00 PM) - could not confirm exact showtime. No tickets purchased yet
 LOCATION:The EARL\, 488 Flat Shoals Ave SE\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20260919-whores@atlconcerts
 DTSTART;TZID=America/New_York:20260919T200000
 DTEND;TZID=America/New_York:20260919T230000
-SUMMARY:WHORES
-DESCRIPTION:Ticket Status: CONFIRMED\nDoors 8:00 PM (w/ EYEHATEGOD\, NO/MAS\, Leafblower)\nTickets: Jeff
+SUMMARY:WHORES - 529 Bar
+DESCRIPTION:Doors 8:00 PM. Tickets: Jeff
 LOCATION:529\, 529 Flat Shoals Ave SE\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20260921-steelbeans@atlconcerts
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
-SUMMARY:Steel Beans
-DESCRIPTION:Ticket Status: TENTATIVE\nShowtime not confirmed - listed with information available\nTickets: none yet
+DTSTART;TZID=America/New_York:20260921T200000
+DTEND;TZID=America/New_York:20260921T230000
+SUMMARY:Steel Beans - 529 Bar
+DESCRIPTION:Time estimated (8:00 PM) - could not confirm exact showtime. No tickets purchased yet
 LOCATION:529\, 529 Flat Shoals Ave SE\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20261004-lambrini@atlconcerts
 DTSTART;TZID=America/New_York:20261004T193000
 DTEND;TZID=America/New_York:20261004T230000
-SUMMARY:Lambrini Girls
-DESCRIPTION:Ticket Status: CONFIRMED\nShow 7:30 PM\nTickets: Martin
+SUMMARY:Lambrini Girls - Variety Playhouse
+DESCRIPTION:Show 7:30 PM. Tickets: Martin
 LOCATION:Variety Playhouse\, 1099 Euclid Ave NE\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20261008-slift@atlconcerts
 DTSTART;TZID=America/New_York:20261008T183000
 DTEND;TZID=America/New_York:20261008T230000
-SUMMARY:SLIFT
-DESCRIPTION:Ticket Status: CONFIRMED\nDoors 6:30 PM\nTickets: Walter & Katie\, Sara
+SUMMARY:SLIFT - The Atlantis (Washington DC)
+DESCRIPTION:Doors 6:30 PM. Tickets: Walter & Katie\, Sara
 LOCATION:The Atlantis\, 2047 9th St NW\, Washington\, DC
 END:VEVENT
 BEGIN:VEVENT
 UID:20261010-showmethebody@atlconcerts
 DTSTART;TZID=America/New_York:20261010T200000
 DTEND;TZID=America/New_York:20261010T230000
-SUMMARY:show me the body
-DESCRIPTION:Ticket Status: CONFIRMED\nShow 8:00 PM (doors 7:00 PM)\nTickets: PK (2 tix\, the other one not spoken for…no chance Adrian goes to this one)
+SUMMARY:Show Me The Body - Terminal West
+DESCRIPTION:Show 8:00 PM (doors 7:00 PM). Tickets: PK (2)
 LOCATION:Terminal West\, 887 W Marietta St NW\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20261010-russiancircles@atlconcerts
 DTSTART;TZID=America/New_York:20261010T200000
 DTEND;TZID=America/New_York:20261010T230000
-SUMMARY:Russian Circles & Pelican
-DESCRIPTION:Ticket Status: CONFIRMED\nShow 8:00 PM\nTickets: Jeff
+SUMMARY:Russian Circles & Pelican - Variety Playhouse
+DESCRIPTION:Show 8:00 PM. Tickets: Jeff
 LOCATION:Variety Playhouse\, 1099 Euclid Ave NE\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20261011-deltron@atlconcerts
 DTSTART;TZID=America/New_York:20261011T200000
 DTEND;TZID=America/New_York:20261011T230000
-SUMMARY:Deltron 3030
-DESCRIPTION:Ticket Status: CONFIRMED\nShow 8:00 PM (doors 7:00 PM)\nTickets: Sara (birthday show)
+SUMMARY:Deltron 3030 - Center Stage
+DESCRIPTION:Show 8:00 PM (doors 7:00 PM). Tickets: Sara
 LOCATION:Center Stage\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20261016-interpol@atlconcerts
 DTSTART;TZID=America/New_York:20261016T200000
 DTEND;TZID=America/New_York:20261016T230000
-SUMMARY:Interpol
-DESCRIPTION:Ticket Status: CONFIRMED\nShow 8:00 PM\nTickets: Martin 2 tix
+SUMMARY:Interpol - The Eastern
+DESCRIPTION:Show 8:00 PM. Tickets: Martin (2)
 LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20261020-lindalindas@atlconcerts
 DTSTART;TZID=America/New_York:20261020T200000
 DTEND;TZID=America/New_York:20261020T230000
-SUMMARY:The Linda Lindas
-DESCRIPTION:Ticket Status: CONFIRMED\nShow 8:00 PM\nTickets: Martin 1 tix
+SUMMARY:The Linda Lindas - Terminal West
+DESCRIPTION:Show 8:00 PM. Tickets: Martin (1)
 LOCATION:Terminal West\, 887 W Marietta St NW\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20261022-mastodon@atlconcerts
 DTSTART;TZID=America/New_York:20261022T190000
 DTEND;TZID=America/New_York:20261022T230000
-SUMMARY:Mastodon
-DESCRIPTION:Ticket Status: TENTATIVE\nDoors 7:00 PM (w/ Deafheaven\, Alcest)\nTickets: none yet
+SUMMARY:Mastodon (w/ Deafheaven, Alcest) - The Eastern
+DESCRIPTION:Doors 7:00 PM. No tickets purchased yet
 LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20261024-djshadow@atlconcerts
 DTSTART;TZID=America/New_York:20261024T200000
 DTEND;TZID=America/New_York:20261024T230000
-SUMMARY:DJ Shadow
-DESCRIPTION:Ticket Status: CONFIRMED\nShow 8:00 PM\nTickets: sara
+SUMMARY:DJ Shadow - The Eastern
+DESCRIPTION:Show 8:00 PM. Tickets: Sara
 LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20261024-greyboy@atlconcerts
 DTSTART;TZID=America/New_York:20261024T200000
 DTEND;TZID=America/New_York:20261024T230000
-SUMMARY:The Greyboy Allstars
-DESCRIPTION:Ticket Status: CONFIRMED\nShow 8:00 PM\nTickets: Jeff
+SUMMARY:The Greyboy Allstars - Variety Playhouse
+DESCRIPTION:Show 8:00 PM. Tickets: Jeff
 LOCATION:Variety Playhouse\, 1099 Euclid Ave NE\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20261025-scofield@atlconcerts
-DTSTART;TZID=America/New_York:20261025T203000
-DTEND;TZID=America/New_York:20261025T223000
-SUMMARY:John Scofield
-DESCRIPTION:Ticket Status: TENTATIVE\nLate show 8:30 PM (early show that night was at 5:00 PM)\nTickets: none yet
+DTSTART;TZID=America/New_York:20261025T170000
+DTEND;TZID=America/New_York:20261025T190000
+SUMMARY:John Scofield - City Winery
+DESCRIPTION:Early show 5:00 PM (there's also a late show that night at 8:30 PM). No tickets purchased yet
 LOCATION:City Winery Atlanta\, 675 Ponce De Leon Ave\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20261028-macsabbath@atlconcerts
 DTSTART;TZID=America/New_York:20261028T180000
 DTEND;TZID=America/New_York:20261028T230000
-SUMMARY:Mac Sabbath
-DESCRIPTION:Ticket Status: TENTATIVE\nDoors 6:00 PM (support for GWAR\, w/ Midnight\, X-Cops)\nTickets: none yet
+SUMMARY:Mac Sabbath (support for GWAR) - Masquerade Heaven
+DESCRIPTION:Doors 6:00 PM. No tickets purchased yet
 LOCATION:The Masquerade - Heaven\, 50 Lower Alabama St\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20261121-jackwhite@atlconcerts
 DTSTART;TZID=America/New_York:20261121T200000
 DTEND;TZID=America/New_York:20261121T230000
-SUMMARY:Jack White
-DESCRIPTION:Ticket Status: CONFIRMED\nShow 8:00 PM (doors 7:00 PM\, phone-free show)\nTickets: PK/AK
+SUMMARY:Jack White - Coca-Cola Roxy
+DESCRIPTION:Show 8:00 PM (doors 7:00 PM). Phone-free show. Tickets: PK/AK
 LOCATION:Coca-Cola Roxy\, 800 Battery Ave SE\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20261122-dragonforce@atlconcerts
 DTSTART;TZID=America/New_York:20261122T183000
 DTEND;TZID=America/New_York:20261122T230000
-SUMMARY:DragonForce
-DESCRIPTION:Ticket Status: TENTATIVE\nDoors 6:30 PM\nTickets: none yet
+SUMMARY:DragonForce - Masquerade Heaven
+DESCRIPTION:Doors 6:30 PM. No tickets purchased yet
 LOCATION:The Masquerade - Heaven\, 50 Lower Alabama St\, Atlanta\, GA
 END:VEVENT
 BEGIN:VEVENT
 UID:20261125-angine@atlconcerts
 DTSTART;TZID=America/New_York:20261125T190000
 DTEND;TZID=America/New_York:20261125T230000
-SUMMARY:Angine de Poitrine
-DESCRIPTION:Ticket Status: TENTATIVE\nDoors 7:00 PM\nTickets: none yet
+SUMMARY:Angine de Poitrine - Masquerade Heaven
+DESCRIPTION:Doors 7:00 PM. No tickets purchased yet
 LOCATION:The Masquerade - Heaven\, 50 Lower Alabama St\, Atlanta\, GA
 END:VEVENT
 END:VCALENDAR
