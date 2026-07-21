@@ -1,296 +1,281 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//ATL Concert Calendar System//v1.0//EN
+PRODID:-//ATL Concert Calendar System//Specification v1.0//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Concerts to See in ATL
+X-WR-CALNAME:ATL Concert Calendar
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-UID:44a084a1cf83ce77e5384df1@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20260725T200000
-DTEND;TZID=America/New_York:20260725T230000
-SUMMARY:Tim Capello
+UID:1e317b7e4406bd6c9c7008bb@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+SUMMARY:✓ Tim Capello
 LOCATION:Drunken Unicorn
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets Purchased\nOrig
- inal note: 🎟️PK +1 maybe AK (will be out of town\, who want them? Sorry…
- )\, Sara 🎟️ Holly 🎟️ Martin🎟️
+DESCRIPTION:Ticket status: Purchased\nTickets: PK +1\; maybe AK\; Sara
+ \nSource: authoritative shared Apple Note\; initial calendar generation.
 STATUS:CONFIRMED
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
+CATEGORIES:Tickets Purchased
 END:VEVENT
 BEGIN:VEVENT
-UID:ee90a1ffdabdd49a8c32ac9f@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20260815T200000
-DTEND;TZID=America/New_York:20260815T230000
+UID:78cf4bf3f74e267b9c4297e1@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
 SUMMARY:Helmet
 LOCATION:The Eastern
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets not indicated a
- s purchased.
-STATUS:CONFIRMED
-TRANSP:OPAQUE
+DESCRIPTION:Ticket status: Not marked purchased\nSource: authoritative
+  shared Apple Note\; initial calendar generation.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Interested
 END:VEVENT
 BEGIN:VEVENT
-UID:37de446801ea1771d2c861bf@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20260905T200000
-DTEND;TZID=America/New_York:20260905T230000
-SUMMARY:Mike D (Beastie Boys)
+UID:bcf8fdafc54ca853605dbe36@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:✓ Mike D (Beastie Boys)
 LOCATION:The Eastern
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets Purchased\nOrig
- inal note: Jeff 2🎟️s
+DESCRIPTION:Ticket status: Purchased\nJeff has 2 tickets\nS
+ ource: authoritative shared Apple Note\; initial calendar generation.
 STATUS:CONFIRMED
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
+CATEGORIES:Tickets Purchased
 END:VEVENT
 BEGIN:VEVENT
-UID:5ad456a4b32eb22f6af194d6@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20260909T200000
-DTEND;TZID=America/New_York:20260909T230000
-SUMMARY:Uncle Acid & The Deadbeats
-LOCATION:The Masquerade - Heaven
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets Purchased\nOrig
- inal note: Jeff 🎟️ Walter 🎟️ Katie 🎟️ 🎟️PK 🎟️Seth
+UID:4f5bdfe1a20f2fe321b225d6@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:✓ Uncle Acid & The Deadbeats
+LOCATION:The Masquerade – Heaven
+DESCRIPTION:Ticket status: Purchased\nTickets: Jeff\; Walter\; Katie\;
+  PK\; Seth\nSource: authoritative shared Apple Note\; initial calenda
+ r generation.
 STATUS:CONFIRMED
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
+CATEGORIES:Tickets Purchased
 END:VEVENT
 BEGIN:VEVENT
-UID:b9c5f60158bff8d3dac9b347@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20260916T200000
-DTEND;TZID=America/New_York:20260916T230000
+UID:4ea80bbd725d9eee959fec4d@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
 SUMMARY:Automatic
 LOCATION:The EARL
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets not indicated a
- s purchased.
-STATUS:CONFIRMED
-TRANSP:OPAQUE
+DESCRIPTION:Ticket status: Not marked purchased\nSource: authoritative
+  shared Apple Note\; initial calendar generation.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Interested
 END:VEVENT
 BEGIN:VEVENT
-UID:dc7695dc5cf6c2cf1f87826c@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20260919T200000
-DTEND;TZID=America/New_York:20260919T230000
-SUMMARY:WHORES
+UID:502db54793677b1e93370a9f@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:✓ WHORES
 LOCATION:529 Bar
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets Purchased\nOrig
- inal note: Jeff 🎟️
+DESCRIPTION:Ticket status: Purchased\nJeff has a ticket\nSource: autho
+ ritative shared Apple Note\; initial calendar generation.
 STATUS:CONFIRMED
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
+CATEGORIES:Tickets Purchased
 END:VEVENT
 BEGIN:VEVENT
-UID:5a9c528f49666d037e969891@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20260921T200000
-DTEND;TZID=America/New_York:20260921T230000
-SUMMARY:Steel Beans
-LOCATION:529 Bar
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets not indicated a
- s purchased.
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:a1503c813b826c74ae36f8a2@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20261004T200000
-DTEND;TZID=America/New_York:20261004T230000
-SUMMARY:Lambrini Girls
+UID:42afa2b4f476d52cc8d35850@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:✓ Lambrini Girls
 LOCATION:Variety Playhouse
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets Purchased\nOrig
- inal note: Martin 🎟️
+DESCRIPTION:Ticket status: Purchased\nMartin has a ticket\nSource: aut
+ horitative shared Apple Note\; initial calendar generation.
 STATUS:CONFIRMED
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
+CATEGORIES:Tickets Purchased
 END:VEVENT
 BEGIN:VEVENT
-UID:58b55a326e5dd9e007cf1bba@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20261008T200000
-DTEND;TZID=America/New_York:20261008T230000
-SUMMARY:SLIFT
+UID:343e35b773aafe11025ad499@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:✓ SLIFT
 LOCATION:The Atlantis\, Washington\, DC
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets Purchased\nOrig
- inal note: Walter & Katie 🎟️ 🎟️ Sara 🎟️
+DESCRIPTION:Ticket status: Purchased\nTickets: Walter & Katie\; Sara\n
+ Source: authoritative shared Apple Note\; initial calendar generation.
 STATUS:CONFIRMED
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
+CATEGORIES:Tickets Purchased
 END:VEVENT
 BEGIN:VEVENT
-UID:4fb1da9cbc5d87f322d5e94c@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20261010T200000
-DTEND;TZID=America/New_York:20261010T230000
-SUMMARY:show me the body
+UID:010f9f24b038fe321e5cffc4@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:✓ Show Me the Body
 LOCATION:Terminal West
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets Purchased\nOrig
- inal note: 🎟️ PK (2 tix\, the other one not spoken for…no chance Adrian 
- goes to this one)
+DESCRIPTION:Ticket status: Purchased\nPK has 2 tickets\; the other is 
+ unclaimed. Note: no chance Adrian goes to this one.\nSource: authorit
+ ative shared Apple Note\; initial calendar generation.
 STATUS:CONFIRMED
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
+CATEGORIES:Tickets Purchased
 END:VEVENT
 BEGIN:VEVENT
-UID:4bb533f08152c3dce98ef5c2@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20261010T200000
-DTEND;TZID=America/New_York:20261010T230000
-SUMMARY:Russian Circles & Pelican
+UID:3211fe7462a08fbac229ca10@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:✓ Russian Circles & Pelican
 LOCATION:Variety Playhouse
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets Purchased\nOrig
- inal note: Jeff 🎟️
+DESCRIPTION:Ticket status: Purchased\nJeff has a ticket\nSource: autho
+ ritative shared Apple Note\; initial calendar generation.
 STATUS:CONFIRMED
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
+CATEGORIES:Tickets Purchased
 END:VEVENT
 BEGIN:VEVENT
-UID:be77386c38d0ad4b21a626bc@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20261011T200000
-DTEND;TZID=America/New_York:20261011T230000
-SUMMARY:Deltron 3030
-LOCATION:
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets Purchased\nOrig
- inal note: Sara 🎟️ 🎂\nVenue not stated in master note.
+UID:d51d432f66f5764900141411@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:✓ Deltron 3030
+DESCRIPTION:Ticket status: Purchased\nSara has a ticket. Birthday even
+ t.\nSource: authoritative shared Apple Note\; initial calendar genera
+ tion.
 STATUS:CONFIRMED
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
+CATEGORIES:Tickets Purchased
 END:VEVENT
 BEGIN:VEVENT
-UID:389673a145e35830ec558a39@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20261016T200000
-DTEND;TZID=America/New_York:20261016T230000
-SUMMARY:Interpol
+UID:9c1de47f82c15f3e45b13c60@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:✓ Interpol
 LOCATION:The Eastern
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets Purchased\nOrig
- inal note: Martin 2 🎟️’s
+DESCRIPTION:Ticket status: Purchased\nMartin has 2 tickets\nSource: au
+ thoritative shared Apple Note\; initial calendar generation.
 STATUS:CONFIRMED
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
+CATEGORIES:Tickets Purchased
 END:VEVENT
 BEGIN:VEVENT
-UID:61a7721558f5c2e360e84b88@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20261020T200000
-DTEND;TZID=America/New_York:20261020T230000
-SUMMARY:The Linda Lindas
+UID:61a7721558f5c2e360e84b88@atl-concert-calendar
+DTSTAMP:20260718T173500Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:✓ The Linda Lindas
 LOCATION:Terminal West
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets Purchased\nOrig
- inal note: Martin 1 🎟️
+DESCRIPTION:Ticket status: Purchased\nMartin has 1 ticket\nSource: authoritative shared Apple Note\; full-history regeneration.
 STATUS:CONFIRMED
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
+CATEGORIES:Tickets Purchased
 END:VEVENT
 BEGIN:VEVENT
-UID:edcb2d15cce68d80a8b07af4@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20261022T200000
-DTEND;TZID=America/New_York:20261022T230000
+UID:fdd490ad6daa7aae6476ee57@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
 SUMMARY:Mastodon
 LOCATION:The Eastern
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets not indicated a
- s purchased.
-STATUS:CONFIRMED
-TRANSP:OPAQUE
+DESCRIPTION:Ticket status: Not marked purchased\nSource: authoritative
+  shared Apple Note\; initial calendar generation.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Interested
 END:VEVENT
 BEGIN:VEVENT
-UID:ad9968c37243cef9ff369e36@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20261024T200000
-DTEND;TZID=America/New_York:20261024T230000
-SUMMARY:DJ Shadow
-LOCATION:
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets Purchased\nOrig
- inal note: sara 🎟️\nVenue not stated in master note.
+UID:1f9fe5ffefc3369c33c1e25e@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:✓ DJ Shadow
+DESCRIPTION:Ticket status: Purchased\nSara has a ticket\nSource: autho
+ ritative shared Apple Note\; initial calendar generation.
 STATUS:CONFIRMED
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
+CATEGORIES:Tickets Purchased
 END:VEVENT
 BEGIN:VEVENT
-UID:282b16b49ce367fe44a02b78@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20261024T200000
-DTEND;TZID=America/New_York:20261024T230000
-SUMMARY:The Greyboy Allstars
+UID:9da8af84976b3fda0bbccf72@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:✓ The Greyboy Allstars
 LOCATION:Variety Playhouse
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets Purchased\nOrig
- inal note: Jeff 🎟️
+DESCRIPTION:Ticket status: Purchased\nJeff has a ticket\nSource: autho
+ ritative shared Apple Note\; initial calendar generation.
 STATUS:CONFIRMED
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
+CATEGORIES:Tickets Purchased
 END:VEVENT
 BEGIN:VEVENT
-UID:e503ff16d8329f403d5e6ff0@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20261025T200000
-DTEND;TZID=America/New_York:20261025T230000
+UID:28b86d1338ac924e988b034e@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
 SUMMARY:John Scofield
-LOCATION:City Winery Atlanta
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets not indicated a
- s purchased.
-STATUS:CONFIRMED
-TRANSP:OPAQUE
+LOCATION:City Winery
+DESCRIPTION:Ticket status: Not marked purchased\nSource: authoritative
+  shared Apple Note\; initial calendar generation.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Interested
 END:VEVENT
 BEGIN:VEVENT
-UID:61e5bd077b421f876e6e7f2c@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20261028T200000
-DTEND;TZID=America/New_York:20261028T230000
+UID:970e23e6808f40c9ea30ffd6@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
 SUMMARY:Mac Sabbath
-LOCATION:The Masquerade - Heaven
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets not indicated a
- s purchased.
-STATUS:CONFIRMED
-TRANSP:OPAQUE
+LOCATION:The Masquerade – Heaven
+DESCRIPTION:Ticket status: Not marked purchased\nSource: authoritative
+  shared Apple Note\; initial calendar generation.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Interested
 END:VEVENT
 BEGIN:VEVENT
-UID:980836efc5b2b197011dadc4@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20261121T200000
-DTEND;TZID=America/New_York:20261121T230000
-SUMMARY:Jack White
+UID:fa9651788076c7b009169596@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:✓ Jack White
 LOCATION:Coca-Cola Roxy
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets Purchased\nOrig
- inal note: 🎟️PK/AK
+DESCRIPTION:Ticket status: Purchased\nTickets: PK / AK\nSource: author
+ itative shared Apple Note\; initial calendar generation.
 STATUS:CONFIRMED
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
+CATEGORIES:Tickets Purchased
 END:VEVENT
 BEGIN:VEVENT
-UID:5e05f86fd4419e41306f202d@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20261122T200000
-DTEND;TZID=America/New_York:20261122T230000
+UID:393ac307670e171a3b905ae2@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
 SUMMARY:DragonForce
-LOCATION:The Masquerade - Heaven
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets not indicated a
- s purchased.
-STATUS:CONFIRMED
-TRANSP:OPAQUE
+LOCATION:The Masquerade – Heaven
+DESCRIPTION:Ticket status: Not marked purchased\nSource: authoritative
+  shared Apple Note\; initial calendar generation.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Interested
 END:VEVENT
 BEGIN:VEVENT
-UID:52c317b0ce162d8885146edf@atlconcertcalendar
-DTSTAMP:20260721T050258Z
-DTSTART;TZID=America/New_York:20261125T200000
-DTEND;TZID=America/New_York:20261125T230000
+UID:8f4b3d6aea953b388073a971@atl-concert-calendar
+DTSTAMP:20260714T213257Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
 SUMMARY:Angine de Poitrine
-LOCATION:The Masquerade - Heaven
-DESCRIPTION:Show time was not supplied in the master note\; 8:00 PM local
-  time was used according to Specification v1.0.\nTickets not indicated a
- s purchased.
-STATUS:CONFIRMED
-TRANSP:OPAQUE
+LOCATION:The Masquerade – Heaven
+DESCRIPTION:Ticket status: Not marked purchased\nSource: authoritative
+  shared Apple Note\; initial calendar generation.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Interested
 END:VEVENT
 END:VCALENDAR
