@@ -5,254 +5,343 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Concerts to See in ATL
 X-WR-TIMEZONE:America/New_York
-X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 UID:20260725-tim-cappello@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20260725T200000
-SUMMARY:Tim Cappello
-LOCATION:The Drunken Unicorn\, 736 Ponce de Leon Ave NE\, Atlanta\, GA 30308
-DESCRIPTION:Tickets purchased. PK +1 maybe AK is struck through in the Shared Apple Note\; note says they will be out of town and asks who wants the tickets. Sara 🎟️\; Holly 🎟️\; Martin 🎟️. Doors 8:00 PM. $20. 21+.\nOfficial event URL: https://www.thedrunkenunicornatl.com/events/timcappellojuly25
+SUMMARY:✓ Tim Cappello
+LOCATION:The Drunken Unicorn\, 736 Ponce de Leon Ave NE\, Atlanta\, GA 3030
+ 8
+DESCRIPTION:Sara has 1 ticket.\nHolly has 1 ticket.\nMartin has 1 ticket.\n
+ Shared-note comment: struck-through “PK +1 maybe AK” tickets are unava
+ ilable because they will be out of town; the note asks who wants them. Doo
+ rs 8:00 PM. $20. 21+.\nOfficial event URL: https://www.thedrunkenunicornat
+ l.com/events/timcappellojuly25
 URL:https://www.thedrunkenunicornatl.com/events/timcappellojuly25
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20260815-helmet@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20260815T193000
 SUMMARY:Helmet
 LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA 30316
-DESCRIPTION:No ticket purchase indicated. Doors 6:30 PM. Support: Spirit In The Room.\nOfficial event URL: https://www.easternatl.com/
+DESCRIPTION:Doors 6:30 PM. Support: Spirit In The Room.\nOfficial event URL
+ : https://www.easternatl.com/
 URL:https://www.easternatl.com/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20260905-mike-d-beastie-boys-@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20260905T190000
-SUMMARY:Mike D (Beastie Boys)
+SUMMARY:✓ Mike D (Beastie Boys)
 LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA 30316
-DESCRIPTION:Tickets purchased. Jeff: 2 tickets. Official listings identify the event as Mike D / Mike D 5D.\nOfficial event URL: https://music.apple.com/us/concerts/ce.80738c99-a62e-4f81-aeb3-e0a3dd4f5d9c
-URL:https://music.apple.com/us/concerts/ce.80738c99-a62e-4f81-aeb3-e0a3dd4f5d9c
+DESCRIPTION:Jeff has 2 tickets.\nOfficial listings identify the event as Mi
+ ke D / Mike D 5D.\nOfficial event URL: https://music.apple.com/us/concerts
+ /ce.80738c99-a62e-4f81-aeb3-e0a3dd4f5d9c
+URL:https://music.apple.com/us/concerts/ce.80738c99-a62e-4f81-aeb3-e0a3dd4f
+ 5d9c
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20260909-uncle-acid-the-deadbeats@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
-SUMMARY:Uncle Acid & The Deadbeats
-LOCATION:Heaven at The Masquerade\, 75 Martin Luther King Jr Dr SW\, Atlanta\, GA 30303
-DESCRIPTION:Tickets purchased. Jeff 🎟️\; Walter 🎟️\; Katie 🎟️\; PK 🎟️\; Seth 🎟️. Doors 7:00 PM. Support: Messa. Start time not separately verified.\nOfficial event URL: https://www.masqueradeatlanta.com/attraction/uncle-acid-and-the-deadbeats/
-URL:https://www.masqueradeatlanta.com/attraction/uncle-acid-and-the-deadbeats/
+SUMMARY:✓ Uncle Acid & The Deadbeats
+LOCATION:Heaven at The Masquerade\, 75 Martin Luther King Jr Dr SW\, Atlant
+ a\, GA 30303
+DESCRIPTION:Jeff has 1 ticket.\nWalter has 1 ticket.\nKatie has 1 ticket.\n
+ Patrick has 1 ticket.\nSeth has 1 ticket.\nDoors 7:00 PM. Support: Messa. 
+ Start time not separately verified.\nOfficial event URL: https://www.masqu
+ eradeatlanta.com/attraction/uncle-acid-and-the-deadbeats/
+URL:https://www.masqueradeatlanta.com/attraction/uncle-acid-and-the-deadbea
+ ts/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20260916-automatic@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:Automatic
 LOCATION:The EARL\, 488 Flat Shoals Ave SE\, Atlanta\, GA 30316
-DESCRIPTION:No ticket purchase indicated. Official start time not verified.\nOfficial event URL: https://badearl.com/
+DESCRIPTION:Official start time not verified.\nOfficial event URL: https://
+ badearl.com/
 URL:https://badearl.com/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20260919-eyehategod-whores@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20260919T200000
 SUMMARY:EYEHATEGOD with WHORES\, No/Mas\, and Leafblower
 LOCATION:529 Bar\, 529 Flat Shoals Ave SE\, Atlanta\, GA 30316
-DESCRIPTION:Tickets purchased. Jeff 🎟️. 21+. Duplicate lines in the Shared Apple Note were consolidated into this single event.\nOfficial event URL: https://529atlanta.com/events/eyehategod/
+DESCRIPTION:Jeff has 1 ticket.\n21+. Official event URL: https://529atlanta
+ .com/events/eyehategod/
 URL:https://529atlanta.com/events/eyehategod/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20260921-steel-beans@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20260921T200000
 SUMMARY:Steel Beans
 LOCATION:529\, 529 Flat Shoals Ave SE\, Atlanta\, GA 30316
-DESCRIPTION:No ticket purchase indicated. Support: The El Caminos and Hot Wives. 21+.\nOfficial event URL: https://529atlanta.com/
+DESCRIPTION:Support: The El Caminos and Hot Wives. 21+.\nOfficial event URL
+ : https://529atlanta.com/
 URL:https://529atlanta.com/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261004-lambrini-girls@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261004T193000
-SUMMARY:Lambrini Girls
+SUMMARY:✓ Lambrini Girls
 LOCATION:Variety Playhouse\, 1099 Euclid Ave NE\, Atlanta\, GA 30307
-DESCRIPTION:Tickets purchased. Martin 🎟️. Doors 6:30 PM. Support: Big Girl. All ages.\nOfficial event URL: https://www.variety-playhouse.com/events/detail/?event_id=1247216
+DESCRIPTION:Martin has 1 ticket.\nDoors 6:30 PM. Support: Big Girl. All age
+ s.\nOfficial event URL: https://www.variety-playhouse.com/events/detail/?e
+ vent_id=1247216
 URL:https://www.variety-playhouse.com/events/detail/?event_id=1247216
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261008-slift@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
-SUMMARY:SLIFT
+SUMMARY:✓ SLIFT
 LOCATION:The Atlantis\, 2047 9th St NW\, Washington\, DC 20001
-DESCRIPTION:Tickets purchased. Walter & Katie: 2 tickets\; Sara 🎟️. Support: Rhododendron. Official start time not verified.\nOfficial event URL: https://theatlantis.com/e/slift
+DESCRIPTION:Walter has 1 ticket.\nKatie has 1 ticket.\nSara has 1 ticket.\n
+ Support: Rhododendron. Official start time not verified.\nOfficial event U
+ RL: https://theatlantis.com/e/slift
 URL:https://theatlantis.com/e/slift
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261010-show-me-the-body@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261010T200000
-SUMMARY:Show Me the Body
+SUMMARY:✓ Show Me the Body
 LOCATION:Terminal West\, 887 West Marietta St NW\, Atlanta\, GA 30318
-DESCRIPTION:Tickets purchased. PK has 2 tickets\; the other is unclaimed. Shared-note comment: “no chance Adrian goes to this one.” Support: WHISPERS and JIVEBOMB.\nOfficial event URL: https://showmethebody.com/pages/tour
+DESCRIPTION:Patrick has 2 tickets.\nShared-note comment: “no chance Adria
+ n goes to this one.” Support: WHISPERS and JIVEBOMB.\nOfficial event URL
+ : https://showmethebody.com/pages/tour
 URL:https://showmethebody.com/pages/tour
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261010-russian-circles-pelican@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261010T200000
-SUMMARY:Russian Circles & Pelican
+SUMMARY:✓ Russian Circles & Pelican
 LOCATION:Variety Playhouse\, 1099 Euclid Ave NE\, Atlanta\, GA 30307
-DESCRIPTION:Tickets purchased. Jeff 🎟️. Doors 7:00 PM.\nOfficial event URL: https://www.variety-playhouse.com/
+DESCRIPTION:Jeff has 1 ticket.\nDoors 7:00 PM.\nOfficial event URL: https:/
+ /www.variety-playhouse.com/
 URL:https://www.variety-playhouse.com/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261011-deltron-3030@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261011T200000
-SUMMARY:Deltron 3030
+SUMMARY:✓ Deltron 3030
 LOCATION:Center Stage Theater\, 1374 W Peachtree St NW\, Atlanta\, GA 30309
-DESCRIPTION:Tickets purchased. Sara 🎟️. Birthday notation: 🎂.\nOfficial event URL: https://www.axs.com/events/1486525/deltron-3030-tickets
+DESCRIPTION:Sara has 1 ticket.\nBirthday notation: 🎂.\nOfficial event UR
+ L: https://www.axs.com/events/1486525/deltron-3030-tickets
 URL:https://www.axs.com/events/1486525/deltron-3030-tickets
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261016-interpol@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261016T200000
-SUMMARY:Interpol
+SUMMARY:✓ Interpol
 LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA 30316
-DESCRIPTION:Tickets purchased. Martin: 2 tickets. Support: DIIV.\nOfficial event URL: https://music.apple.com/us/concerts/ce.fc98a9c9-d139-430b-83d6-73c527029a23
-URL:https://music.apple.com/us/concerts/ce.fc98a9c9-d139-430b-83d6-73c527029a23
+DESCRIPTION:Martin has 2 tickets.\nSupport: DIIV.\nOfficial event URL: http
+ s://music.apple.com/us/concerts/ce.fc98a9c9-d139-430b-83d6-73c527029a23
+URL:https://music.apple.com/us/concerts/ce.fc98a9c9-d139-430b-83d6-73c52702
+ 9a23
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261020-the-linda-lindas@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261020T200000
-SUMMARY:The Linda Lindas
+SUMMARY:✓ The Linda Lindas
 LOCATION:Terminal West\, 887 West Marietta St NW\, Atlanta\, GA 30318
-DESCRIPTION:Tickets purchased. Martin: 1 ticket. Doors 7:00 PM. Support: Grace Bowers.\nOfficial event URL: https://terminalwestatl.com/calendar/
+DESCRIPTION:Martin has 1 ticket.\nDoors 7:00 PM. Support: Grace Bowers.\nOf
+ ficial event URL: https://terminalwestatl.com/calendar/
 URL:https://terminalwestatl.com/calendar/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261022-mastodon@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:Mastodon
 LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA 30316
-DESCRIPTION:No ticket purchase indicated. Official start time not verified.\nOfficial event URL: https://www.easternatl.com/
+DESCRIPTION:Official start time not verified.\nOfficial event URL: https://
+ www.easternatl.com/
 URL:https://www.easternatl.com/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261024-dj-shadow@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261024T200000
-SUMMARY:DJ Shadow
+SUMMARY:✓ DJ Shadow
 LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA 30316
-DESCRIPTION:Tickets purchased. Sara 🎟️. Doors 7:00 PM. Event: 30 Years of Endtroducing.\nOfficial event URL: https://www.axs.com/events/1423445/dj-shadow-30-years-of-endtroducing-tickets
-URL:https://www.axs.com/events/1423445/dj-shadow-30-years-of-endtroducing-tickets
+DESCRIPTION:Sara has 1 ticket.\nDoors 7:00 PM. Event: 30 Years of Endtroduc
+ ing.\nOfficial event URL: https://www.axs.com/events/1423445/dj-shadow-30-
+ years-of-endtroducing-tickets
+URL:https://www.axs.com/events/1423445/dj-shadow-30-years-of-endtroducing-t
+ ickets
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261024-the-greyboy-allstars@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261024T200000
-SUMMARY:The Greyboy Allstars
+SUMMARY:✓ The Greyboy Allstars
 LOCATION:Variety Playhouse\, 1099 Euclid Ave NE\, Atlanta\, GA 30307
-DESCRIPTION:Tickets purchased. Jeff 🎟️. Doors 7:00 PM.\nOfficial event URL: https://www.variety-playhouse.com/calendar/
+DESCRIPTION:Jeff has 1 ticket.\nDoors 7:00 PM.\nOfficial event URL: https:/
+ /www.variety-playhouse.com/calendar/
 URL:https://www.variety-playhouse.com/calendar/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261025-john-scofield@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:John Scofield
 LOCATION:City Winery Atlanta\, 650 North Ave NE\, Atlanta\, GA 30308
-DESCRIPTION:No ticket purchase indicated. Official listing has two performances\, 5:00 PM and 8:30 PM\; the Shared Apple Note does not specify which performance.\nOfficial event URL: https://tickets.citywinery.com/event/john-scofields-electrospective-featuring-oteil-b-a7gdj3
-URL:https://tickets.citywinery.com/event/john-scofields-electrospective-featuring-oteil-b-a7gdj3
+DESCRIPTION:Official listing has two performances\, 5:00 PM and 8:30 PM\; t
+ he Shared Apple Note does not specify which performance.\nOfficial event U
+ RL: https://tickets.citywinery.com/event/john-scofields-electrospective-fe
+ aturing-oteil-b-a7gdj3
+URL:https://tickets.citywinery.com/event/john-scofields-electrospective-fea
+ turing-oteil-b-a7gdj3
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261028-gwar-mac-sabbath@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261028T180000
 SUMMARY:GWAR with Midnight\, Mac Sabbath\, and X-Cops
-LOCATION:Heaven at The Masquerade\, 75 Martin Luther King Jr Dr SW\, Atlanta\, GA 30303
-DESCRIPTION:No ticket purchase indicated. Doors 6:00 PM\; a separate show time was not verified. Duplicate lines in the Shared Apple Note were consolidated into this single event.\nOfficial event URL: https://www.masqueradeatlanta.com/attraction/mac-sabbath/
+LOCATION:Heaven at The Masquerade\, 75 Martin Luther King Jr Dr SW\, Atlant
+ a\, GA 30303
+DESCRIPTION:Doors 6:00 PM\; a separate show time was not verified.\nOfficia
+ l event URL: https://www.masqueradeatlanta.com/attraction/mac-sabbath/
 URL:https://www.masqueradeatlanta.com/attraction/mac-sabbath/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261121-jack-white@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261121T200000
-SUMMARY:Jack White
+SUMMARY:✓ Jack White
 LOCATION:Coca-Cola Roxy\, 800 Battery Ave SE\, Atlanta\, GA 30339
-DESCRIPTION:Tickets purchased. PK/AK. Doors 7:00 PM. All ages.\nOfficial event URL: https://www.livenation.com/event/vvG1zZ_FrhZ9ww/jack-white-live-2026
+DESCRIPTION:Patrick has 1 ticket.\nAdrian has 1 ticket.\nDoors 7:00 PM. All
+  ages.\nOfficial event URL: https://www.livenation.com/event/vvG1zZ_FrhZ9w
+ w/jack-white-live-2026
 URL:https://www.livenation.com/event/vvG1zZ_FrhZ9ww/jack-white-live-2026
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261122-dragonforce@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261122T183000
 SUMMARY:DragonForce
-LOCATION:Heaven at The Masquerade\, 75 Martin Luther King Jr Dr SW\, Atlanta\, GA 30303
-DESCRIPTION:No ticket purchase indicated. Inhuman Rampage 20th Anniversary.\nOfficial event URL: https://www.ticketmaster.com/dragonforce-inhuman-rampage-20th-anniversary-atlanta-georgia-11-22-2026/event/0E0064B4BE7BEEC4
-URL:https://www.ticketmaster.com/dragonforce-inhuman-rampage-20th-anniversary-atlanta-georgia-11-22-2026/event/0E0064B4BE7BEEC4
+LOCATION:Heaven at The Masquerade\, 75 Martin Luther King Jr Dr SW\, Atlant
+ a\, GA 30303
+DESCRIPTION:Inhuman Rampage 20th Anniversary.\nOfficial event URL: https://
+ www.ticketmaster.com/dragonforce-inhuman-rampage-20th-anniversary-atlanta-
+ georgia-11-22-2026/event/0E0064B4BE7BEEC4
+URL:https://www.ticketmaster.com/dragonforce-inhuman-rampage-20th-anniversa
+ ry-atlanta-georgia-11-22-2026/event/0E0064B4BE7BEEC4
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261125-angine-de-poitrine@atl-concert-calendar
-DTSTAMP:20260721T230000Z
+DTSTAMP:20260722T150000Z
+LAST-MODIFIED:20260722T150000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Angine de Poitrine
 LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA 30316
-DESCRIPTION:No ticket purchase indicated. Doors 7:00 PM\; a separate show time was not verified. Duplicate lines in the Shared Apple Note were consolidated into this single event.\nOfficial event URL: https://www.masqueradeatlanta.com/attraction/angine-de-poitrine/
+DESCRIPTION:Doors 7:00 PM\; a separate show time was not verified.\nOfficia
+ l event URL: https://www.masqueradeatlanta.com/attraction/angine-de-poitri
+ ne/
 URL:https://www.masqueradeatlanta.com/attraction/angine-de-poitrine/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
-END:VCALENDAR
 END:VCALENDAR
