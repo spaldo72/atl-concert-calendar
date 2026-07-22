@@ -147,6 +147,10 @@ function formatDate(date) {
   }).format(date);
 }
 
+function ticketIndexTitle(title) {
+  return title.replace(/^\s*✓\s*/, "");
+}
+
 function renderTicketIndex(index) {
   const root = document.getElementById("ticket-index");
 
@@ -171,8 +175,6 @@ function renderTicketIndex(index) {
       (a, b) => a.date - b.date
     );
 
-    const nextConcert = concerts[0];
-
     const concertList = concerts
       .map(concert => {
         const quantityText =
@@ -182,7 +184,7 @@ function renderTicketIndex(index) {
 
         return `
           <li class="person-show">
-            <strong>${concert.title}</strong>
+            <strong>${ticketIndexTitle(concert.title)}</strong>
             <span>
               ${formatDate(concert.date)}${quantityText}
             </span>
@@ -196,29 +198,19 @@ function renderTicketIndex(index) {
 
     card.innerHTML = `
       <div class="person-card-header">
-        <div>
-          <p class="person-label">Group member</p>
+        <p class="person-label">Group member</p>
+        <div class="person-header-line">
           <h3>${person}</h3>
-        </div>
-
-        <div class="ticket-total">
-          <strong>${details.total}</strong>
-          <span>
-            ${details.total === 1 ? "ticket" : "tickets"}
-          </span>
-        </div>
-      </div>
-
-      <div class="person-summary">
-        <div>
-          <span>Upcoming shows</span>
-          <strong>${concerts.length}</strong>
-        </div>
-
-        <div>
-          <span>Next show</span>
-          <strong>${nextConcert.title}</strong>
-          <small>${formatDate(nextConcert.date)}</small>
+          <div class="person-counts">
+            <span class="person-count">
+              <strong>${details.total}</strong>
+              ${details.total === 1 ? "ticket" : "tickets"}
+            </span>
+            <span class="person-count">
+              <strong>${concerts.length}</strong>
+              upcoming ${concerts.length === 1 ? "show" : "shows"}
+            </span>
+          </div>
         </div>
       </div>
 
