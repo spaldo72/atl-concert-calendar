@@ -1,4 +1,3 @@
-
 const FEED = "calendar.ics";
 const tabs = document.querySelectorAll(".tab");
 const panelIds = ["apple","google","windows","other"];
@@ -48,12 +47,28 @@ function parseDate(raw) {
   return z ? new Date(Date.UTC(+y,+mo-1,+d,+h,+mi,+s)) : new Date(+y,+mo-1,+d,+h,+mi,+s);
 }
 
+function parseTicketHolders(description) {
+  const holders = [];
+  const ticketStatement = /(?:^|\s)([A-Z][\p{L}'’-]*(?: [A-Z][\p{L}'’-]*)*) has ([1-9]\d*) tickets?\./gu;
+  let match;
+
+  while ((match = ticketStatement.exec(description)) !== null) {
+    holders.push({ name: match[1], quantity: Number(match[2]) });
+  }
+
+  return holders;
+}
+
 function parseICS(text) {
-  return (unfold(text).match(/BEGIN:VEVENT[\s\S]*?END:VEVENT/g) || []).map(block => ({
-    title: valueOf(block,"SUMMARY") || "Untitled concert",
-    location: valueOf(block,"LOCATION"),
-    start: parseDate(valueOf(block,"DTSTART"))
-  })).filter(e => e.start && !isNaN(e.start));
+  return (unfold(text).match(/BEGIN:VEVENT[\s\S]*?END:VEVENT/g) || []).map(block => {
+    const description = valueOf(block,"DESCRIPTION");
+    return {
+      title: valueOf(block,"SUMMARY") || "Untitled concert",
+      location: valueOf(block,"LOCATION"),
+      start: parseDate(valueOf(block,"DTSTART")),
+      ticketHolders: parseTicketHolders(description)
+    };
+  }).filter(e => e.start && !isNaN(e.start));
 }
 
 function render(events) {
@@ -74,10 +89,19 @@ function render(events) {
     const day = e.start.getDate();
     const dateText = e.start.toLocaleString("en-US",{weekday:"short",month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit"});
     el.innerHTML = `<div class="date"><div class="month">${month}</div><div class="day">${day}</div></div>
-      <div><h3></h3><div class="meta"><span class="when"></span><br><span class="where"></span></div></div>`;
+      <div><h3></h3><div class="meta"><span class="when"></span><br><span class="where"></span></div><ul class="event-ticket-holders" hidden></ul></div>`;
     el.querySelector("h3").textContent = e.title;
     el.querySelector(".when").textContent = dateText;
     el.querySelector(".where").textContent = e.location || "";
+
+    const ticketList = el.querySelector(".event-ticket-holders");
+    e.ticketHolders.forEach(holder => {
+      const item = document.createElement("li");
+      item.textContent = `${holder.name} 🎟️${holder.quantity > 1 ? ` (${holder.quantity})` : ""}`;
+      ticketList.appendChild(item);
+    });
+    ticketList.hidden = e.ticketHolders.length === 0;
+
     root.appendChild(el);
   });
 }
