@@ -1,3 +1,4 @@
+
 const FEED = "calendar.ics";
 const tabs = document.querySelectorAll(".tab");
 const panelIds = ["apple","google","windows","other"];
@@ -62,13 +63,20 @@ function parseTicketHolders(description) {
 function parseICS(text) {
   return (unfold(text).match(/BEGIN:VEVENT[\s\S]*?END:VEVENT/g) || []).map(block => {
     const description = valueOf(block,"DESCRIPTION");
+    const title = valueOf(block,"SUMMARY") || "Untitled concert";
+    const ticketHolders = parseTicketHolders(description);
     return {
-      title: valueOf(block,"SUMMARY") || "Untitled concert",
+      title,
       location: valueOf(block,"LOCATION"),
       start: parseDate(valueOf(block,"DTSTART")),
-      ticketHolders: parseTicketHolders(description)
+      ticketHolders,
+      hasPurchasedTickets: /^\s*✓\s*/.test(title) || ticketHolders.length > 0
     };
   }).filter(e => e.start && !isNaN(e.start));
+}
+
+function homepageTitle(title) {
+  return title.replace(/^\s*✓\s*/, "");
 }
 
 function render(events) {
@@ -88,9 +96,9 @@ function render(events) {
     const month = e.start.toLocaleString("en-US",{month:"short"}).toUpperCase();
     const day = e.start.getDate();
     const dateText = e.start.toLocaleString("en-US",{weekday:"short",month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit"});
-    el.innerHTML = `<div class="date"><div class="month">${month}</div><div class="day">${day}</div></div>
+    el.innerHTML = `<div class="date${e.hasPurchasedTickets ? " ticketed" : ""}"><div class="month">${month}</div><div class="day">${day}</div></div>
       <div><h3></h3><div class="meta"><span class="when"></span><br><span class="where"></span></div><ul class="event-ticket-holders" hidden></ul></div>`;
-    el.querySelector("h3").textContent = e.title;
+    el.querySelector("h3").textContent = homepageTitle(e.title);
     el.querySelector(".when").textContent = dateText;
     el.querySelector(".where").textContent = e.location || "";
 
