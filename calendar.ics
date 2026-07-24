@@ -330,16 +330,18 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261125-angine-de-poitrine@atl-concert-calendar
-DTSTAMP:20260722T203000Z
-LAST-MODIFIED:20260722T203000Z
-SEQUENCE:1
+DTSTAMP:20260722T165900Z
+LAST-MODIFIED:20260722T165900Z
+SEQUENCE:2
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Angine de Poitrine
-LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA 30316
-DESCRIPTION:Doors 7:00 PM\; a separate show time was not verified.\nOfficia
- l event URL: https://www.masqueradeatlanta.com/attraction/angine-de-poitri
- ne/
+LOCATION:Heaven at The Masquerade\, 75 Martin Luther King Jr Dr SW\, Atlant
+ a\, GA 30303
+DESCRIPTION:Doors 7:00 PM\; a separate show time was not verified.\nVenue s
+ et to Heaven at The Masquerade by operator decision\; the Shared Apple Not
+ e lists The Eastern.\nOfficial event URL: https://www.masqueradeatlanta.co
+ m/attraction/angine-de-poitrine/
 URL:https://www.masqueradeatlanta.com/attraction/angine-de-poitrine/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
