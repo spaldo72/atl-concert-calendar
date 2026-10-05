@@ -118,11 +118,11 @@ DESCRIPTION:Sara has 1 ticket.\nKatie has 1 ticket.\nWalter has 1 ticket.
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20260916-automatic@atlconcerts
+UID:20261016-Interpol@atlconcerts
 DTSTAMP:20260827T122724Z
 DTSTART;VALUE=DATE:20261016
 SUMMARY:Interpol
-LOCATION:The EARL
+LOCATION:The Eastern
 END:VEVENT
 
 BEGIN:VEVENT
