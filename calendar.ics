@@ -118,6 +118,7 @@ DESCRIPTION:Sara has 1 ticket.\nKatie has 1 ticket.\nWalter has 1 ticket.
 END:VEVENT
 
 BEGIN:VEVENT
+UID:20261016-interpol@atlconcerts
 LOCATION:The Eastern
 END:VEVENT
 
