@@ -152,15 +152,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:20261016-interpol@atl-concert-calendar
-DTSTAMP:20261011T190544Z
-LAST-MODIFIED:20261011T190544Z
-SEQUENCE:3
+DTSTAMP:20261011T192530Z
+LAST-MODIFIED:20261011T192530Z
+SEQUENCE:4
 DTSTART;TZID=America/New_York:20261016T200000
 DTEND;TZID=America/New_York:20261016T220000
-SUMMARY:✓ Interpol
+SUMMARY:Interpol
 LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA 30316
-DESCRIPTION:Martin has 2 tickets.\nSupport: DIIV.\nOfficial event URL: http
- s://music.apple.com/us/concerts/ce.fc98a9c9-d139-430b-83d6-73c527029a23
+DESCRIPTION:No attendees currently listed.\nSupport: DIIV.\nOfficial event 
+ URL: https://music.apple.com/us/concerts/ce.fc98a9c9-d139-430b-83d6-73c527
+ 029a23
 URL:https://music.apple.com/us/concerts/ce.fc98a9c9-d139-430b-83d6-73c52702
  9a23
 STATUS:CONFIRMED
@@ -168,7 +169,9 @@ TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-P2D
-DESCRIPTION:Concert in 2 days — buy a ticket if needed.
+DESCRIPTION:No attendees currently listed.\nSupport: DIIV.\nOfficial event 
+ URL: https://music.apple.com/us/concerts/ce.fc98a9c9-d139-430b-83d6-73c527
+ 029a23
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
