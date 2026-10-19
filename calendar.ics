@@ -6,6 +6,22 @@ METHOD:PUBLISH
 X-WR-CALNAME:Concerts to See in ATL
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
+UID:20261019-yhwh-nailgun@atl-concert-calendar
+DTSTAMP:20261019T225937Z
+LAST-MODIFIED:20261019T225937Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261019T200000
+DTEND;TZID=America/New_York:20261019T220000
+SUMMARY:✓ YHWH Nailgun
+LOCATION:Aisle 5\, 1123 Euclid Ave NE\, Atlanta\, GA 30307
+DESCRIPTION:Seth has 1 ticket.\nMartin has 1 ticket.\nDoors 7:00 PM. Show 
+ 8:00 PM. Support: Keiyaa. All ages.\nOfficial event URL: https://www.live
+ nation.com/event/vvG1zZ_u101FE9/yhwh-nailgun
+URL:https://www.livenation.com/event/vvG1zZ_u101FE9/yhwh-nailgun
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 UID:20261020-the-linda-lindas@atl-concert-calendar
 DTSTAMP:20261019T043418Z
 LAST-MODIFIED:20261019T043205Z
@@ -88,19 +104,17 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261025-john-scofield@atl-concert-calendar
-DTSTAMP:20261019T043418Z
-LAST-MODIFIED:20261019T043205Z
-SEQUENCE:3
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTAMP:20261019T225937Z
+LAST-MODIFIED:20261019T225937Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261025T203000
+DTEND;TZID=America/New_York:20261025T223000
 SUMMARY:John Scofield
 LOCATION:City Winery Atlanta\, 650 North Ave NE\, Atlanta\, GA 30308
-DESCRIPTION:Official listing has two performances\, 5:00 PM and 8:30 PM\; t
- he Shared Apple Note does not specify which performance.\nOfficial event U
- RL: https://tickets.citywinery.com/event/john-scofields-electrospective-fe
- aturing-oteil-b-a7gdj3
-URL:https://tickets.citywinery.com/event/john-scofields-electrospective-fea
- turing-oteil-b-a7gdj3
+DESCRIPTION:Operator selected the 8:30 PM performance. Featuring Oteil Burb
+ ridge\, Larry Goldings\, and Adam Deitch.\nOfficial event URL: https://www
+ .axs.com/events/1393984/john-scofield-tickets
+URL:https://www.axs.com/events/1393984/john-scofield-tickets
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
