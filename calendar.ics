@@ -6,48 +6,17 @@ METHOD:PUBLISH
 X-WR-CALNAME:Concerts to See in ATL
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-UID:20261019-yhwh-nailgun@atl-concert-calendar
-DTSTAMP:20261019T225937Z
-LAST-MODIFIED:20261019T225937Z
-SEQUENCE:0
-DTSTART;TZID=America/New_York:20261019T200000
-DTEND;TZID=America/New_York:20261019T220000
-SUMMARY:✓ YHWH Nailgun
-LOCATION:Aisle 5\, 1123 Euclid Ave NE\, Atlanta\, GA 30307
-DESCRIPTION:Seth has 1 ticket.\nMartin has 1 ticket.\nDoors 7:00 PM. Show 
- 8:00 PM. Support: Keiyaa. All ages.\nOfficial event URL: https://www.live
- nation.com/event/vvG1zZ_u101FE9/yhwh-nailgun
-URL:https://www.livenation.com/event/vvG1zZ_u101FE9/yhwh-nailgun
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20261020-the-linda-lindas@atl-concert-calendar
-DTSTAMP:20261019T043418Z
-LAST-MODIFIED:20261019T043205Z
-SEQUENCE:4
-DTSTART;TZID=America/New_York:20261020T200000
-DTEND;TZID=America/New_York:20261020T220000
-SUMMARY:✓ The Linda Lindas
-LOCATION:Terminal West\, 887 West Marietta St NW\, Atlanta\, GA 30318
-DESCRIPTION:Martin has 1 ticket.\nDoors 7:00 PM. Support: Grace Bowers.\nOf
- ficial event URL: https://terminalwestatl.com/calendar/
-URL:https://terminalwestatl.com/calendar/
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:20261022-mastodon@atl-concert-calendar
-DTSTAMP:20261019T043418Z
-LAST-MODIFIED:20261019T043205Z
-SEQUENCE:3
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
+DTSTAMP:20261022T000556Z
+LAST-MODIFIED:20261022T000556Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261022T190000
+DTEND;TZID=America/New_York:20261022T210000
 SUMMARY:✓ Mastodon
 LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA 30316
 DESCRIPTION:Martin has 1 ticket.\nPatrick has 1 ticket.\nDragon notation: 
- 🐉.\nNeither an official show time nor doors-open time was verified.\nOf
- ficial event URL: https://www.easternatl.com/
+ 🐉.\nDoors 6:00 PM. Show 7:00 PM. The two-hour end time is a calendar di
+ splay convention.\nOfficial event URL: https://www.easternatl.com/
 URL:https://www.easternatl.com/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -166,32 +135,33 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261107-ajj@atl-concert-calendar
-DTSTAMP:20261019T043418Z
-LAST-MODIFIED:20261019T043205Z
-SEQUENCE:2
+DTSTAMP:20261022T000556Z
+LAST-MODIFIED:20261022T000556Z
+SEQUENCE:3
 DTSTART;TZID=America/New_York:20261107T190000
 DTEND;TZID=America/New_York:20261107T220000
-SUMMARY:AJJ
+SUMMARY:✓ AJJ
 LOCATION:Hell at The Masquerade\, 92 Pryor St SW\, Atlanta\, GA 30303
-DESCRIPTION:Doors 7:00 PM. Support: Greet Death. All ages. A separate perfo
- rmance start time was not verified. Official event URL: https://www.masque
- radeatlanta.com/events/
+DESCRIPTION:Sara has 1 ticket.\nDoors 7:00 PM. Support: Greet Death. All ag
+ es. A separate performance start time was not verified. Official event URL
+ : https://www.masqueradeatlanta.com/events/
 URL:https://www.masqueradeatlanta.com/events/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261115-giles-corey@atl-concert-calendar
-DTSTAMP:20261019T043418Z
-LAST-MODIFIED:20261019T043205Z
-SEQUENCE:2
+DTSTAMP:20261022T000556Z
+LAST-MODIFIED:20261022T000556Z
+SEQUENCE:3
 DTSTART;TZID=America/New_York:20261115T190000
 DTEND;TZID=America/New_York:20261115T220000
 SUMMARY:Giles Corey
 LOCATION:Purgatory at The Masquerade\, 92 Pryor St SW\, Atlanta\, GA 30303
-DESCRIPTION:Sara wants to go. Doors 7:00 PM. Support: Kathryn Mohr and Val 
- Acton Loper. All ages. A separate performance start time was not verified.
-  Official event URL: https://www.masqueradeatlanta.com/events/giles-corey/
+DESCRIPTION:Sara wants to go and is going on a different day in Washington\
+ , DC. Doors 7:00 PM. Support: Kathryn Mohr and Val Acton Loper. All ages. 
+ A separate performance start time was not verified. Official event URL: ht
+ tps://www.masqueradeatlanta.com/events/giles-corey/
 URL:https://www.masqueradeatlanta.com/events/giles-corey/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
