@@ -24,21 +24,17 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261025-siegel-sampson@atl-concert-calendar
-DTSTAMP:20261025T035513Z
-LAST-MODIFIED:20261025T035513Z
-SEQUENCE:0
+DTSTAMP:20261025T162800Z
+LAST-MODIFIED:20261025T162800Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
-SUMMARY:✓ Siegel Sampson
+SUMMARY:✓ Johnny Blue Skies & the Dark Clouds
 LOCATION:Venue not specified
-DESCRIPTION:Merton has 1 ticket.\nPatrick has 1 ticket.\nChicago Joe has 1 
- ticket.\nIncluded by operator decision as Siegel Sampson\, not Sturgill Si
- mpson. Merton is the operator's alter-ego display name. No official start 
- time or venue was verified.
+DESCRIPTION:Martin has 1 ticket.\nPatrick has 1 ticket.\nChicago Joe has 1 ticket.\nStart time and venue not specified.
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
+END:VEVENTBEGIN:VEVENT
 UID:20261028-osees@atl-concert-calendar
 DTSTAMP:20261019T043418Z
 LAST-MODIFIED:20261019T043205Z
