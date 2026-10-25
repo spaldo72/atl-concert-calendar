@@ -6,73 +6,6 @@ METHOD:PUBLISH
 X-WR-CALNAME:Concerts to See in ATL
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-UID:20261022-mastodon@atl-concert-calendar
-DTSTAMP:20261025T010036Z
-LAST-MODIFIED:20261025T010036Z
-SEQUENCE:5
-DTSTART;TZID=America/New_York:20261022T190000
-DTEND;TZID=America/New_York:20261022T210000
-SUMMARY:✓ Mastodon
-LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA 30316
-DESCRIPTION:Martin has 1 ticket.\nPatrick has 1 ticket.\nSeth has 1 ticket.
- \nDragon notation: 🐉.\nDoors 6:00 PM. Show 7:00 PM. The two-hour end ti
- me is a calendar display convention.\nOfficial event URL: https://www.east
- ernatl.com/
-URL:https://www.easternatl.com/
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20261024-the-greyboy-allstars@atl-concert-calendar
-DTSTAMP:20261025T010036Z
-LAST-MODIFIED:20261025T010036Z
-SEQUENCE:5
-DTSTART;TZID=America/New_York:20261024T200000
-DTEND;TZID=America/New_York:20261024T220000
-SUMMARY:✓ The Greyboy Allstars
-LOCATION:Variety Playhouse\, 1099 Euclid Ave NE\, Atlanta\, GA 30307
-DESCRIPTION:Jeff has 1 ticket.\nDoors 7:00 PM. Show 8:00 PM.\nOfficial even
- t URL: https://www.variety-playhouse.com/calendar/
-URL:https://www.variety-playhouse.com/calendar/
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20261024-dj-shadow@atl-concert-calendar
-DTSTAMP:20261019T043418Z
-LAST-MODIFIED:20261019T043205Z
-SEQUENCE:4
-DTSTART;TZID=America/New_York:20261024T200000
-DTEND;TZID=America/New_York:20261024T220000
-SUMMARY:✓ DJ Shadow
-LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA 30316
-DESCRIPTION:Sara has 1 ticket.\nKatie has 1 ticket.\nWalter has 1 ticket.\n
- Doors 7:00 PM. Event: 30 Years of Endtroducing.\nOfficial event URL: https
- ://www.easternatl.com/
-URL:https://www.axs.com/events/1423445/dj-shadow-30-years-of-endtroducing-t
- ickets
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20261024-ecca-vandal@atl-concert-calendar
-DTSTAMP:20261019T043418Z
-LAST-MODIFIED:20261019T043205Z
-SEQUENCE:0
-DTSTART;TZID=America/New_York:20261024T190000
-DTEND;TZID=America/New_York:20261024T220000
-SUMMARY:✓ Ecca Vandal
-LOCATION:Hell at The Masquerade\, 75 Martin Luther King Jr Dr SW\, Atlanta\
- , GA 30303
-DESCRIPTION:Martin has 1 ticket.\nDoors 7:00 PM. Support: Scattrbrain. All 
- ages. Sold out. The show was moved to Hell\; previously purchased tickets 
- remain valid.\nOfficial event URL: https://www.masqueradeatlanta.com/event
- s/ecca-vandal/
-URL:https://www.masqueradeatlanta.com/events/ecca-vandal/
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:20261025-john-scofield@atl-concert-calendar
 DTSTAMP:20261025T010036Z
 LAST-MODIFIED:20261025T010036Z
@@ -102,20 +35,6 @@ DESCRIPTION:Merton has 1 ticket.\nPatrick has 1 ticket.\nChicago Joe has 1
  ticket.\nIncluded by operator decision as Siegel Sampson\, not Sturgill Si
  mpson. Merton is the operator's alter-ego display name. No official start 
  time or venue was verified.
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20261025-jojo-the-banana-hammocks@atl-concert-calendar
-DTSTAMP:20261019T043418Z
-LAST-MODIFIED:20261019T043205Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:✓ Jojo & The Banana Hammocks
-LOCATION:The Western Playhouse
-DESCRIPTION:Jeff has 1 ticket.\nIncluded by operator decision. No official 
- start time or venue address was verified.
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
