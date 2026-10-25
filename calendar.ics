@@ -30,8 +30,8 @@ SEQUENCE:1
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:✓ Johnny Blue Skies & the Dark Clouds
-LOCATION:Venue not specified
-DESCRIPTION:Martin has 1 ticket.\nPatrick has 1 ticket.\nChicago Joe has 1 ticket.\nStart time and venue not specified.
+LOCATION:State Farm Arena\, Atlanta\, GA
+DESCRIPTION:Martin has 1 ticket.\nPatrick has 1 ticket.\nChicago Joe has 1 ticket.\nStart time not specified.
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENTBEGIN:VEVENT
