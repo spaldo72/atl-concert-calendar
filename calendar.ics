@@ -90,6 +90,22 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+UID:20261025-siegel-sampson@atl-concert-calendar
+DTSTAMP:20261025T035513Z
+LAST-MODIFIED:20261025T035513Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:✓ Siegel Sampson
+LOCATION:Venue not specified
+DESCRIPTION:Merton has 1 ticket.\nPatrick has 1 ticket.\nChicago Joe has 1 
+ ticket.\nIncluded by operator decision as Siegel Sampson\, not Sturgill Si
+ mpson. Merton is the operator's alter-ego display name. No official start 
+ time or venue was verified.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 UID:20261025-jojo-the-banana-hammocks@atl-concert-calendar
 DTSTAMP:20261019T043418Z
 LAST-MODIFIED:20261019T043205Z
@@ -204,16 +220,16 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261125-angine-de-poitrine@atl-concert-calendar
-DTSTAMP:20261019T043418Z
-LAST-MODIFIED:20261019T043205Z
-SEQUENCE:4
+DTSTAMP:20261025T035513Z
+LAST-MODIFIED:20261025T035513Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261125T190000
 DTEND;TZID=America/New_York:20261125T220000
-SUMMARY:Angine de Poitrine
+SUMMARY:✓ Angine de Poitrine
 LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA 30316
-DESCRIPTION:Doors 7:00 PM\; a separate show time was not verified.\nOfficia
- l event URL: https://www.masqueradeatlanta.com/attraction/angine-de-poitri
- ne/
+DESCRIPTION:Martin has 1 ticket.\nDoors 7:00 PM; a separate show time was n
+ ot verified.\nOfficial event URL: https://www.masqueradeatlanta.com/attrac
+ tion/angine-de-poitrine/
 URL:https://www.masqueradeatlanta.com/attraction/angine-de-poitrine/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
