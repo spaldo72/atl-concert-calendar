@@ -14,7 +14,7 @@ DTSTART;TZID=America/New_York:20261025T200000
 DTEND;TZID=America/New_York:20261025T220000
 SUMMARY:✓ John Scofield
 LOCATION:City Winery Atlanta\, 650 North Ave NE\, Atlanta\, GA 30308
-DESCRIPTION:Jeff has 1 ticket.\nSource note specifies an 8:00 PM start. The
+DESCRIPTION:Jeff has 1 ticket.\nShow starts 8:00 PM. Doors time not verified. Source note specifies an 8:00 PM start. The
   two-hour end time is a calendar display convention. Featuring Oteil Burbr
  idge\, Larry Goldings\, and Adam Deitch.\nOfficial event URL: https://www.
  axs.com/events/1393984/john-scofield-tickets
@@ -35,7 +35,8 @@ DESCRIPTION:Martin has 1 ticket.\nPatrick has 1 ticket.\nChicago Joe has 1 ticke
 URL:https://www.statefarmarena.com/events/detail/johnny-blue-skies-and-the-dark-clouds-mutiny-for-the-masses-tour-tickets-atlanta-georgia-2026-10-25
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-END:VEVENTBEGIN:VEVENT
+END:VEVENT
+BEGIN:VEVENT
 UID:20261028-osees@atl-concert-calendar
 DTSTAMP:20261019T043418Z
 LAST-MODIFIED:20261019T043205Z
@@ -44,7 +45,7 @@ DTSTART;TZID=America/New_York:20261028T200000
 DTEND;TZID=America/New_York:20261028T220000
 SUMMARY:✓ OSEES
 LOCATION:Variety Playhouse\, 1099 Euclid Ave NE\, Atlanta\, GA 30307
-DESCRIPTION:Katie has 1 ticket.\nWalter has 1 ticket.\nDoors 7:00 PM. Billi
+DESCRIPTION:Katie has 1 ticket.\nWalter has 1 ticket.\nDoors open 7:00 PM. Show starts 8:00 PM. Billi
  ng: Osees ft. Brigid Dawson with Traps PS. All ages. Official event URL: h
  ttps://www.axs.com/events/1475902/osees-ft-brigid-dawson-tickets
 URL:https://www.axs.com/events/1475902/osees-ft-brigid-dawson-tickets
@@ -127,7 +128,7 @@ DTSTART;TZID=America/New_York:20261121T200000
 DTEND;TZID=America/New_York:20261121T220000
 SUMMARY:✓ Jack White
 LOCATION:Coca-Cola Roxy\, 800 Battery Ave SE\, Atlanta\, GA 30339
-DESCRIPTION:Patrick has 1 ticket.\nAdrian has 1 ticket.\nDoors 7:00 PM. All
+DESCRIPTION:Patrick has 1 ticket.\nAdrian has 1 ticket.\nDoors open 7:00 PM. Show starts 8:00 PM. All
   ages.\nOfficial event URL: https://www.livenation.com/event/vvG1zZ_FrhZ9w
  w/jack-white-live-2026
 URL:https://www.livenation.com/event/vvG1zZ_FrhZ9ww/jack-white-live-2026
