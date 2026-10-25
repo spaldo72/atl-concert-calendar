@@ -26,12 +26,13 @@ BEGIN:VEVENT
 UID:20261025-siegel-sampson@atl-concert-calendar
 DTSTAMP:20261025T162800Z
 LAST-MODIFIED:20261025T162800Z
-SEQUENCE:1
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+SEQUENCE:2
+DTSTART;TZID=America/New_York:20261025T200000
+DTEND;TZID=America/New_York:20261025T220000
 SUMMARY:✓ Johnny Blue Skies & the Dark Clouds
 LOCATION:State Farm Arena\, Atlanta\, GA
-DESCRIPTION:Martin has 1 ticket.\nPatrick has 1 ticket.\nChicago Joe has 1 ticket.\nStart time not specified.
+DESCRIPTION:Martin has 1 ticket.\nPatrick has 1 ticket.\nChicago Joe has 1 ticket.\nDoors open 7:00 PM. Show starts 8:00 PM. Two-hour calendar duration. Official event URL: https://www.statefarmarena.com/events/detail/johnny-blue-skies-and-the-dark-clouds-mutiny-for-the-masses-tour-tickets-atlanta-georgia-2026-10-25
+URL:https://www.statefarmarena.com/events/detail/johnny-blue-skies-and-the-dark-clouds-mutiny-for-the-masses-tour-tickets-atlanta-georgia-2026-10-25
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENTBEGIN:VEVENT
