@@ -7,31 +7,32 @@ X-WR-CALNAME:Concerts to See in ATL
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 UID:20261022-mastodon@atl-concert-calendar
-DTSTAMP:20261022T000556Z
-LAST-MODIFIED:20261022T000556Z
-SEQUENCE:4
+DTSTAMP:20261025T010036Z
+LAST-MODIFIED:20261025T010036Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261022T190000
 DTEND;TZID=America/New_York:20261022T210000
 SUMMARY:✓ Mastodon
 LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA 30316
-DESCRIPTION:Martin has 1 ticket.\nPatrick has 1 ticket.\nDragon notation: 
- 🐉.\nDoors 6:00 PM. Show 7:00 PM. The two-hour end time is a calendar di
- splay convention.\nOfficial event URL: https://www.easternatl.com/
+DESCRIPTION:Martin has 1 ticket.\nPatrick has 1 ticket.\nSeth has 1 ticket.
+ \nDragon notation: 🐉.\nDoors 6:00 PM. Show 7:00 PM. The two-hour end ti
+ me is a calendar display convention.\nOfficial event URL: https://www.east
+ ernatl.com/
 URL:https://www.easternatl.com/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261024-the-greyboy-allstars@atl-concert-calendar
-DTSTAMP:20261019T043418Z
-LAST-MODIFIED:20261019T043205Z
-SEQUENCE:4
+DTSTAMP:20261025T010036Z
+LAST-MODIFIED:20261025T010036Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261024T200000
 DTEND;TZID=America/New_York:20261024T220000
-SUMMARY:The Greyboy Allstars
+SUMMARY:✓ The Greyboy Allstars
 LOCATION:Variety Playhouse\, 1099 Euclid Ave NE\, Atlanta\, GA 30307
-DESCRIPTION:Doors 7:00 PM. Show 8:00 PM.\nOfficial event URL: https://www.v
- ariety-playhouse.com/calendar/
+DESCRIPTION:Jeff has 1 ticket.\nDoors 7:00 PM. Show 8:00 PM.\nOfficial even
+ t URL: https://www.variety-playhouse.com/calendar/
 URL:https://www.variety-playhouse.com/calendar/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -73,16 +74,17 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261025-john-scofield@atl-concert-calendar
-DTSTAMP:20261019T225937Z
-LAST-MODIFIED:20261019T225937Z
-SEQUENCE:4
-DTSTART;TZID=America/New_York:20261025T203000
-DTEND;TZID=America/New_York:20261025T223000
-SUMMARY:John Scofield
+DTSTAMP:20261025T010036Z
+LAST-MODIFIED:20261025T010036Z
+SEQUENCE:5
+DTSTART;TZID=America/New_York:20261025T200000
+DTEND;TZID=America/New_York:20261025T220000
+SUMMARY:✓ John Scofield
 LOCATION:City Winery Atlanta\, 650 North Ave NE\, Atlanta\, GA 30308
-DESCRIPTION:Operator selected the 8:30 PM performance. Featuring Oteil Burb
- ridge\, Larry Goldings\, and Adam Deitch.\nOfficial event URL: https://www
- .axs.com/events/1393984/john-scofield-tickets
+DESCRIPTION:Jeff has 1 ticket.\nSource note specifies an 8:00 PM start. The
+  two-hour end time is a calendar display convention. Featuring Oteil Burbr
+ idge\, Larry Goldings\, and Adam Deitch.\nOfficial event URL: https://www.
+ axs.com/events/1393984/john-scofield-tickets
 URL:https://www.axs.com/events/1393984/john-scofield-tickets
 STATUS:CONFIRMED
 TRANSP:OPAQUE
