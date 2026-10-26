@@ -6,37 +6,6 @@ METHOD:PUBLISH
 X-WR-CALNAME:Concerts to See in ATL
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-UID:20261025-john-scofield@atl-concert-calendar
-DTSTAMP:20261025T010036Z
-LAST-MODIFIED:20261025T010036Z
-SEQUENCE:5
-DTSTART;TZID=America/New_York:20261025T200000
-DTEND;TZID=America/New_York:20261025T220000
-SUMMARY:✓ John Scofield
-LOCATION:City Winery Atlanta\, 650 North Ave NE\, Atlanta\, GA 30308
-DESCRIPTION:Jeff has 1 ticket.\nShow starts 8:00 PM. Doors time not verified. Source note specifies an 8:00 PM start. The
-  two-hour end time is a calendar display convention. Featuring Oteil Burbr
- idge\, Larry Goldings\, and Adam Deitch.\nOfficial event URL: https://www.
- axs.com/events/1393984/john-scofield-tickets
-URL:https://www.axs.com/events/1393984/john-scofield-tickets
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20261025-siegel-sampson@atl-concert-calendar
-DTSTAMP:20261025T162800Z
-LAST-MODIFIED:20261025T162800Z
-SEQUENCE:2
-DTSTART;TZID=America/New_York:20261025T200000
-DTEND;TZID=America/New_York:20261025T220000
-SUMMARY:✓ Johnny Blue Skies & the Dark Clouds
-LOCATION:State Farm Arena\, Atlanta\, GA
-DESCRIPTION:Martin has 1 ticket.\nPatrick has 1 ticket.\nChicago Joe has 1 ticket.\nDoors open 7:00 PM. Show starts 8:00 PM. Two-hour calendar duration. Official event URL: https://www.statefarmarena.com/events/detail/johnny-blue-skies-and-the-dark-clouds-mutiny-for-the-masses-tour-tickets-atlanta-georgia-2026-10-25
-URL:https://www.statefarmarena.com/events/detail/johnny-blue-skies-and-the-dark-clouds-mutiny-for-the-masses-tour-tickets-atlanta-georgia-2026-10-25
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:20261028-osees@atl-concert-calendar
 DTSTAMP:20261019T043418Z
 LAST-MODIFIED:20261019T043205Z
@@ -166,6 +135,20 @@ DESCRIPTION:Martin has 1 ticket.\nDoors 7:00 PM. A separate official show t
  eopatrick-atlanta-04-29-2027/event/0E006548F4A89266
 URL:https://www.ticketmaster.com/cleopatrick-atlanta-04-29-2027/event/0E006
  548F4A89266
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20270505-iron-maiden@atl-concert-calendar
+DTSTAMP:20261026T183700Z
+LAST-MODIFIED:20261026T183700Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20270505T183000
+DTEND;TZID=America/New_York:20270505T203000
+SUMMARY:✓ Iron Maiden
+LOCATION:Lakewood Amphitheatre\, 2002 Lakewood Way\, Atlanta\, GA 30315
+DESCRIPTION:Martin has 1 ticket.\nWalter's attendance is unconfirmed.\nPublished event time: 6:30 PM. Doors-open time and Iron Maiden's individual set time are not verified.\nWith Bullet for My Valentine and The Raven Age.\nCalendar end is a two-hour display convention\, not the actual concert end.\nOfficial event URL: https://www.ticketmaster.com/iron-maiden-run-for-your-lives-atlanta-georgia-05-05-2027/event/0E00654DAA47D3CC
+URL:https://www.ticketmaster.com/iron-maiden-run-for-your-lives-atlanta-georgia-05-05-2027/event/0E00654DAA47D3CC
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
