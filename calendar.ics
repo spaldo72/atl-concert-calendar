@@ -6,133 +6,156 @@ METHOD:PUBLISH
 X-WR-CALNAME:Concerts to See in ATL
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-UID:20261028-osees@atl-concert-calendar
-DTSTAMP:20261019T043418Z
-LAST-MODIFIED:20261019T043205Z
-SEQUENCE:1
-DTSTART;TZID=America/New_York:20261028T200000
-DTEND;TZID=America/New_York:20261028T220000
-SUMMARY:✓ OSEES
-LOCATION:Variety Playhouse\, 1099 Euclid Ave NE\, Atlanta\, GA 30307
-DESCRIPTION:Katie has 1 ticket.\nWalter has 1 ticket.\nDoors open 7:00 PM. Show starts 8:00 PM. Billi
- ng: Osees ft. Brigid Dawson with Traps PS. All ages. Official event URL: h
- ttps://www.axs.com/events/1475902/osees-ft-brigid-dawson-tickets
-URL:https://www.axs.com/events/1475902/osees-ft-brigid-dawson-tickets
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20261028-gwar-mac-sabbath@atl-concert-calendar
-DTSTAMP:20261019T043418Z
-LAST-MODIFIED:20261019T043205Z
-SEQUENCE:5
-DTSTART;TZID=America/New_York:20261028T180000
-DTEND;TZID=America/New_York:20261028T210000
-SUMMARY:GWAR with Midnight\, Mac Sabbath\, and X-Cops
-LOCATION:Heaven at The Masquerade\, 75 Martin Luther King Jr Dr SW\, Atlant
- a\, GA 30303
-DESCRIPTION:Doors 6:00 PM\; a separate show time was not verified.\nOfficia
- l event URL: https://www.masqueradeatlanta.com/attraction/mac-sabbath/
-URL:https://www.masqueradeatlanta.com/attraction/mac-sabbath/
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:20261107-ajj@atl-concert-calendar
-DTSTAMP:20261022T000556Z
-LAST-MODIFIED:20261022T000556Z
-SEQUENCE:3
+DTSTAMP:20261105T214224Z
+LAST-MODIFIED:20261105T214224Z
+SEQUENCE:4
 DTSTART;TZID=America/New_York:20261107T190000
 DTEND;TZID=America/New_York:20261107T220000
 SUMMARY:✓ AJJ
 LOCATION:Hell at The Masquerade\, 92 Pryor St SW\, Atlanta\, GA 30303
-DESCRIPTION:Sara has 1 ticket.\nDoors 7:00 PM. Support: Greet Death. All ag
- es. A separate performance start time was not verified. Official event URL
- : https://www.masqueradeatlanta.com/events/
+DESCRIPTION:Sara has 1 ticket.\nDoors open: 7:00 PM. Show start not verifie
+ d\; calendar starts at doors.\nSupport: Greet Death. All ages.\nOfficial e
+ vent URL: https://www.masqueradeatlanta.com/events/
 URL:https://www.masqueradeatlanta.com/events/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261115-giles-corey@atl-concert-calendar
-DTSTAMP:20261022T000556Z
-LAST-MODIFIED:20261022T000556Z
-SEQUENCE:3
+DTSTAMP:20261105T214224Z
+LAST-MODIFIED:20261105T214224Z
+SEQUENCE:4
 DTSTART;TZID=America/New_York:20261115T190000
 DTEND;TZID=America/New_York:20261115T220000
 SUMMARY:Giles Corey
 LOCATION:Purgatory at The Masquerade\, 92 Pryor St SW\, Atlanta\, GA 30303
 DESCRIPTION:Sara wants to go and is going on a different day in Washington\
- , DC. Doors 7:00 PM. Support: Kathryn Mohr and Val Acton Loper. All ages. 
- A separate performance start time was not verified. Official event URL: ht
- tps://www.masqueradeatlanta.com/events/giles-corey/
+ , DC.\nDoors open: 7:00 PM. Show start not verified\; calendar starts at d
+ oors.\nSupport: Kathryn Mohr and Val Acton Loper. All ages.\nOfficial even
+ t URL: https://www.masqueradeatlanta.com/events/giles-corey/
 URL:https://www.masqueradeatlanta.com/events/giles-corey/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:20261122-dragonforce@atl-concert-calendar
-DTSTAMP:20261019T043418Z
-LAST-MODIFIED:20261019T043205Z
-SEQUENCE:4
-DTSTART;TZID=America/New_York:20261122T183000
-DTEND;TZID=America/New_York:20261122T203000
-SUMMARY:DragonForce
-LOCATION:Heaven at The Masquerade\, 75 Martin Luther King Jr Dr SW\, Atlant
- a\, GA 30303
-DESCRIPTION:Inhuman Rampage 20th Anniversary.\nOfficial event URL: https://
- www.ticketmaster.com/dragonforce-inhuman-rampage-20th-anniversary-atlanta-
- georgia-11-22-2026/event/0E0064B4BE7BEEC4
-URL:https://www.ticketmaster.com/dragonforce-inhuman-rampage-20th-anniversa
- ry-atlanta-georgia-11-22-2026/event/0E0064B4BE7BEEC4
+UID:20261120-the-bad-plus@atl-concert-calendar
+DTSTAMP:20261105T214224Z
+LAST-MODIFIED:20261105T214224Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261120T200000
+DTEND;TZID=America/New_York:20261120T220000
+SUMMARY:The Bad Plus Farewell Tour
+LOCATION:The Garden Club at Wild Heaven West End\, 1010 White St SW\, Atlan
+ ta\, GA 30310
+DESCRIPTION:Jeff has 2 tickets.\nPublished event time: 8:00 PM. Doors time 
+ and the artist's individual set time are not verified.\nCalendar end is a 
+ two-hour display convention\, not the actual concert end.\nOfficial event 
+ URL: https://www.thebadplus.com/tour
+URL:https://www.thebadplus.com/tour
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261121-jack-white@atl-concert-calendar
-DTSTAMP:20261019T043418Z
-LAST-MODIFIED:20261019T043205Z
-SEQUENCE:4
+DTSTAMP:20261105T214224Z
+LAST-MODIFIED:20261105T214224Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261121T200000
 DTEND;TZID=America/New_York:20261121T220000
 SUMMARY:✓ Jack White
 LOCATION:Coca-Cola Roxy\, 800 Battery Ave SE\, Atlanta\, GA 30339
-DESCRIPTION:Patrick has 1 ticket.\nAdrian has 1 ticket.\nDoors open 7:00 PM. Show starts 8:00 PM. All
-  ages.\nOfficial event URL: https://www.livenation.com/event/vvG1zZ_FrhZ9w
- w/jack-white-live-2026
+DESCRIPTION:Patrick has 1 ticket.\nAdrian has 1 ticket.\nDoors open: 7:00 P
+ M. Show starts: 8:00 PM. All ages.\nOfficial event URL: https://www.livena
+ tion.com/event/vvG1zZ_FrhZ9ww/jack-white-live-2026
 URL:https://www.livenation.com/event/vvG1zZ_FrhZ9ww/jack-white-live-2026
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:20261125-angine-de-poitrine@atl-concert-calendar
-DTSTAMP:20261025T035513Z
-LAST-MODIFIED:20261025T035513Z
+UID:20261122-dragonforce@atl-concert-calendar
+DTSTAMP:20261105T214224Z
+LAST-MODIFIED:20261105T214224Z
 SEQUENCE:5
+DTSTART;TZID=America/New_York:20261122T183000
+DTEND;TZID=America/New_York:20261122T213000
+SUMMARY:DragonForce
+LOCATION:Heaven at The Masquerade\, 75 Martin Luther King Jr Dr SW\, Atlant
+ a\, GA 30303
+DESCRIPTION:Doors open: 6:30 PM. Show start not verified\; calendar starts 
+ at doors.\nInhuman Rampage 20th Anniversary with Ensiferum and Rhapsody of
+  Fire. All ages.\nOfficial event URL: https://www.masqueradeatlanta.com/ev
+ ents/dragonforce/
+URL:https://www.masqueradeatlanta.com/events/dragonforce/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20261125-angine-de-poitrine@atl-concert-calendar
+DTSTAMP:20261105T214224Z
+LAST-MODIFIED:20261105T214224Z
+SEQUENCE:6
 DTSTART;TZID=America/New_York:20261125T190000
 DTEND;TZID=America/New_York:20261125T220000
 SUMMARY:✓ Angine de Poitrine
 LOCATION:The Eastern\, 800 Old Flat Shoals Rd SE\, Atlanta\, GA 30316
-DESCRIPTION:Martin has 1 ticket.\nDoors 7:00 PM; a separate show time was n
- ot verified.\nOfficial event URL: https://www.masqueradeatlanta.com/attrac
- tion/angine-de-poitrine/
+DESCRIPTION:Martin has 1 ticket.\nDoors open: 7:00 PM. Show start not verif
+ ied\; calendar starts at doors.\nOfficial event URL: https://www.masquerad
+ eatlanta.com/attraction/angine-de-poitrine/
 URL:https://www.masqueradeatlanta.com/attraction/angine-de-poitrine/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:20270429-cleopatrick@atl-concert-calendar
-DTSTAMP:20261019T043418Z
-LAST-MODIFIED:20261019T043418Z
+UID:20261127-rush@atl-concert-calendar
+DTSTAMP:20261105T214224Z
+LAST-MODIFIED:20261105T214224Z
 SEQUENCE:0
+DTSTART;TZID=America/New_York:20261127T193000
+DTEND;TZID=America/New_York:20261127T213000
+SUMMARY:✓ RUSH: Fifty Something
+LOCATION:State Farm Arena\, 1 State Farm Dr\, Atlanta\, GA 30303
+DESCRIPTION:Martin has 1 ticket.\nDoors open: 6:30 PM. Show starts: 7:30 PM
+ .\nCalendar end is a two-hour display convention\, not the actual concert 
+ end.\nOfficial event URL: https://www.statefarmarena.com/events/detail/rus
+ h
+URL:https://www.statefarmarena.com/events/detail/rush
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20261212-charlotte-cornfield@atl-concert-calendar
+DTSTAMP:20261105T214224Z
+LAST-MODIFIED:20261105T214224Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261212T190000
+DTEND;TZID=America/New_York:20261212T220000
+SUMMARY:Charlotte Cornfield
+LOCATION:Purgatory at The Masquerade\, 50 Lower Alabama St SW\, Atlanta\, G
+ A 30303
+DESCRIPTION:Seth wants to go\; ticket ownership is not confirmed.\nDoors op
+ en: 7:00 PM. Show start not verified\; calendar starts at doors.\nOfficial
+  billing: Friendship & Charlotte Cornfield with More Eaze. All ages.\nOffi
+ cial event URL: https://www.masqueradeatlanta.com/events/friendship-charlo
+ tte-cornfield/
+URL:https://www.masqueradeatlanta.com/events/friendship-charlotte-cornfield
+ /
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20270429-cleopatrick@atl-concert-calendar
+DTSTAMP:20261105T214224Z
+LAST-MODIFIED:20261105T214224Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20270429T190000
 DTEND;TZID=America/New_York:20270429T220000
 SUMMARY:✓ Cleopatrick
 LOCATION:Hell at The Masquerade\, 75 Martin Luther King Jr Dr SW\, Atlanta\
  , GA 30303
-DESCRIPTION:Martin has 1 ticket.\nDoors 7:00 PM. A separate official show t
- ime was not verified.\nOfficial event URL: https://www.ticketmaster.com/cl
- eopatrick-atlanta-04-29-2027/event/0E006548F4A89266
+DESCRIPTION:Martin has 1 ticket.\nDoors open: 7:00 PM. Show start not verif
+ ied\; calendar starts at doors.\nOfficial event URL: https://www.ticketmas
+ ter.com/cleopatrick-atlanta-04-29-2027/event/0E006548F4A89266
 URL:https://www.ticketmaster.com/cleopatrick-atlanta-04-29-2027/event/0E006
  548F4A89266
 STATUS:CONFIRMED
@@ -147,8 +170,14 @@ DTSTART;TZID=America/New_York:20270505T183000
 DTEND;TZID=America/New_York:20270505T203000
 SUMMARY:✓ Iron Maiden
 LOCATION:Lakewood Amphitheatre\, 2002 Lakewood Way\, Atlanta\, GA 30315
-DESCRIPTION:Martin has 1 ticket.\nWalter's attendance is unconfirmed.\nPublished event time: 6:30 PM. Doors-open time and Iron Maiden's individual set time are not verified.\nWith Bullet for My Valentine and The Raven Age.\nCalendar end is a two-hour display convention\, not the actual concert end.\nOfficial event URL: https://www.ticketmaster.com/iron-maiden-run-for-your-lives-atlanta-georgia-05-05-2027/event/0E00654DAA47D3CC
-URL:https://www.ticketmaster.com/iron-maiden-run-for-your-lives-atlanta-georgia-05-05-2027/event/0E00654DAA47D3CC
+DESCRIPTION:Martin has 1 ticket.\nWalter's attendance is unconfirmed.\nPubl
+ ished event time: 6:30 PM. Doors-open time and Iron Maiden's individual se
+ t time are not verified.\nWith Bullet for My Valentine and The Raven Age.\
+ nCalendar end is a two-hour display convention\, not the actual concert en
+ d.\nOfficial event URL: https://www.ticketmaster.com/iron-maiden-run-for-y
+ our-lives-atlanta-georgia-05-05-2027/event/0E00654DAA47D3CC
+URL:https://www.ticketmaster.com/iron-maiden-run-for-your-lives-atlanta-geo
+ rgia-05-05-2027/event/0E00654DAA47D3CC
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
