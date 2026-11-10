@@ -1,0 +1,25 @@
+name: Validate exported concert notes
+on:
+  push:
+    branches: [main]
+    paths:
+      - concerts_source.txt
+      - scripts/validate_concert_notes.py
+      - .github/workflows/validate-concert-notes.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Apple Notes export
+        run: python3 scripts/validate_concert_notes.py
+      - name: Upload review report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: notes-validation-report
+          path: notes_validation_report.json
+          if-no-files-found: warn
