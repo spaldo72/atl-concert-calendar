@@ -6,25 +6,9 @@ METHOD:PUBLISH
 X-WR-CALNAME:Concerts to See in ATL
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-UID:20261107-ajj@atl-concert-calendar
-DTSTAMP:20261105T214224Z
-LAST-MODIFIED:20261105T214224Z
-SEQUENCE:4
-DTSTART;TZID=America/New_York:20261107T190000
-DTEND;TZID=America/New_York:20261107T220000
-SUMMARY:✓ AJJ
-LOCATION:Hell at The Masquerade\, 92 Pryor St SW\, Atlanta\, GA 30303
-DESCRIPTION:Sara has 1 ticket.\nDoors open: 7:00 PM. Show start not verifie
- d\; calendar starts at doors.\nSupport: Greet Death. All ages.\nOfficial e
- vent URL: https://www.masqueradeatlanta.com/events/
-URL:https://www.masqueradeatlanta.com/events/
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:20261115-giles-corey@atl-concert-calendar
-DTSTAMP:20261105T214224Z
-LAST-MODIFIED:20261105T214224Z
+DTSTAMP:20261110T034256Z
+LAST-MODIFIED:20261110T034256Z
 SEQUENCE:4
 DTSTART;TZID=America/New_York:20261115T190000
 DTEND;TZID=America/New_York:20261115T220000
@@ -40,8 +24,8 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261120-the-bad-plus@atl-concert-calendar
-DTSTAMP:20261105T214224Z
-LAST-MODIFIED:20261105T214224Z
+DTSTAMP:20261110T034256Z
+LAST-MODIFIED:20261110T034256Z
 SEQUENCE:0
 DTSTART;TZID=America/New_York:20261120T200000
 DTEND;TZID=America/New_York:20261120T220000
@@ -58,8 +42,8 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261121-jack-white@atl-concert-calendar
-DTSTAMP:20261105T214224Z
-LAST-MODIFIED:20261105T214224Z
+DTSTAMP:20261110T034256Z
+LAST-MODIFIED:20261110T034256Z
 SEQUENCE:5
 DTSTART;TZID=America/New_York:20261121T200000
 DTEND;TZID=America/New_York:20261121T220000
@@ -74,8 +58,8 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261122-dragonforce@atl-concert-calendar
-DTSTAMP:20261105T214224Z
-LAST-MODIFIED:20261105T214224Z
+DTSTAMP:20261110T034256Z
+LAST-MODIFIED:20261110T034256Z
 SEQUENCE:5
 DTSTART;TZID=America/New_York:20261122T183000
 DTEND;TZID=America/New_York:20261122T213000
@@ -92,8 +76,8 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261125-angine-de-poitrine@atl-concert-calendar
-DTSTAMP:20261105T214224Z
-LAST-MODIFIED:20261105T214224Z
+DTSTAMP:20261110T034256Z
+LAST-MODIFIED:20261110T034256Z
 SEQUENCE:6
 DTSTART;TZID=America/New_York:20261125T190000
 DTEND;TZID=America/New_York:20261125T220000
@@ -108,8 +92,8 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261127-rush@atl-concert-calendar
-DTSTAMP:20261105T214224Z
-LAST-MODIFIED:20261105T214224Z
+DTSTAMP:20261110T034256Z
+LAST-MODIFIED:20261110T034256Z
 SEQUENCE:0
 DTSTART;TZID=America/New_York:20261127T193000
 DTEND;TZID=America/New_York:20261127T213000
@@ -125,8 +109,8 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261212-charlotte-cornfield@atl-concert-calendar
-DTSTAMP:20261105T214224Z
-LAST-MODIFIED:20261105T214224Z
+DTSTAMP:20261110T034256Z
+LAST-MODIFIED:20261110T034256Z
 SEQUENCE:0
 DTSTART;TZID=America/New_York:20261212T190000
 DTEND;TZID=America/New_York:20261212T220000
@@ -144,9 +128,27 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+UID:20261219-fuzz@atl-concert-calendar
+DTSTAMP:20261110T034256Z
+LAST-MODIFIED:20261110T034256Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261219T210000
+DTEND;TZID=America/New_York:20261219T230000
+SUMMARY:FUZZ
+LOCATION:Aisle 5\, 1123 Euclid Ave NE\, Atlanta\, GA 30307
+DESCRIPTION:Published event time: 9:00 PM. Doors time and FUZZ's individual
+  set time are not verified.\nFUZZ appears on the bill with TF Marz\, Alex 
+ Unger\, and indastars.\nCalendar end is a two-hour display convention\, no
+ t the actual concert end.\nOfficial event URL: https://aisle5atl.com/calen
+ dar/
+URL:https://aisle5atl.com/calendar/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 UID:20270429-cleopatrick@atl-concert-calendar
-DTSTAMP:20261105T214224Z
-LAST-MODIFIED:20261105T214224Z
+DTSTAMP:20261110T034256Z
+LAST-MODIFIED:20261110T034256Z
 SEQUENCE:1
 DTSTART;TZID=America/New_York:20270429T190000
 DTEND;TZID=America/New_York:20270429T220000
@@ -162,20 +164,38 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:20270505-iron-maiden@atl-concert-calendar
-DTSTAMP:20261026T183700Z
-LAST-MODIFIED:20261026T183700Z
+UID:20270503-the-chats@atl-concert-calendar
+DTSTAMP:20261110T034256Z
+LAST-MODIFIED:20261110T034256Z
 SEQUENCE:0
+DTSTART;TZID=America/New_York:20270503T190000
+DTEND;TZID=America/New_York:20270503T220000
+SUMMARY:✓ The Chats
+LOCATION:Heaven at The Masquerade\, 50 Lower Alabama St SW\, Atlanta\, GA 3
+ 0303
+DESCRIPTION:Martin has 1 ticket.\nDoors open: 7:00 PM. Show start not verif
+ ied\; calendar starts at doors.\nWith Chain Whip and Gymshorts.\nOfficial 
+ event URL: https://www.masqueradeatlanta.com/events/the-chats-2/
+URL:https://www.masqueradeatlanta.com/events/the-chats-2/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20270505-iron-maiden@atl-concert-calendar
+DTSTAMP:20261110T034256Z
+LAST-MODIFIED:20261110T034256Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20270505T183000
 DTEND;TZID=America/New_York:20270505T203000
 SUMMARY:✓ Iron Maiden
 LOCATION:Lakewood Amphitheatre\, 2002 Lakewood Way\, Atlanta\, GA 30315
-DESCRIPTION:Martin has 1 ticket.\nWalter's attendance is unconfirmed.\nPubl
- ished event time: 6:30 PM. Doors-open time and Iron Maiden's individual se
- t time are not verified.\nWith Bullet for My Valentine and The Raven Age.\
- nCalendar end is a two-hour display convention\, not the actual concert en
- d.\nOfficial event URL: https://www.ticketmaster.com/iron-maiden-run-for-y
- our-lives-atlanta-georgia-05-05-2027/event/0E00654DAA47D3CC
+DESCRIPTION:Martin has 1 ticket.\nJeff has 1 ticket.\nWalter's attendance i
+ s unconfirmed.\nPublished event time: 6:30 PM. Doors-open time and Iron Ma
+ iden's individual set time are not verified.\nWith Bullet for My Valentine
+  and The Raven Age.\nCalendar end is a two-hour display convention\, not t
+ he actual concert end.\nOfficial event URL: https://www.ticketmaster.com/i
+ ron-maiden-run-for-your-lives-atlanta-georgia-05-05-2027/event/0E00654DAA4
+ 7D3CC
 URL:https://www.ticketmaster.com/iron-maiden-run-for-your-lives-atlanta-geo
  rgia-05-05-2027/event/0E00654DAA47D3CC
 STATUS:CONFIRMED
