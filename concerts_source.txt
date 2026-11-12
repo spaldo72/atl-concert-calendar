@@ -6,7 +6,7 @@ https://spaldo72.github.io/atl-concert-calendar/
 
 Check marks = Tickets Purchased
 
-Upcoming Events
+Upcoming Events 
 - [ ] 11/15/2026: Giles Corey- Masquerade (purgatory) Sarawants to go - (and is going on a different day in DC)
 - [ ] 11/20/26 - The Bad Plus - ppppp Club @ Wild Haven - Jeff 🎟️ 🎟️
 - [x] 11/21/26: Jack White - CC ROXY 🎟️PK/AK 
@@ -46,8 +46,8 @@ Past Events
     0. HEY?!? Patrick 🎟️ H19 
 - [ ] 3/8/24 Wolves of Glendale - Aisle 5 
     0. Walter?
-- [x] 3/9/24 Sleater-Kinney - The Eastern Martin has 2 🎟️ 🎟️
-- [x] 4/6 (Sat): Mountain Goats- The Eastern
+- [x] - [x] 3/9/24 Sleater-Kinney - The Eastern Martin has 2 🎟️ 🎟️
+- [x] - [x] 4/6 (Sat): Mountain Goats- The Eastern
 - [ ] 4/13 (Sat): Danny Brown- Masquerade 
 - [x] 4/15 (Mon): STRFKR - Variety Playhouse 
        1. Martin has 1
@@ -79,7 +79,7 @@ Past Events
 - [ ] 5/26 (Sun): Real Estate: Variety Playhouse
 - [ ] 6/1 (Sat): Orville Peck- Chastain 
 - [x] 6/24 (Mon): DUBLIN (AK/PK 10yr Anniversary Tour) (moved event to Atlanta)
-- [x] 6/21-23 Corndog-O-Rama - Boggs Social $25 for weekend pass. Other options below. 
+- [x] - [x] 6/21-23 Corndog-O-Rama - Boggs Social $25 for weekend pass. Other options below. 
 Martin has 1 🎟️ 
 Patrick has 1 🎟️ 
 June 21st - 23rd at Boggs Social & Supply: Corndogorama: the Musical!
@@ -103,33 +103,33 @@ Martin has 1 🎟️
 - [x] 8/28: Ladytron - Variety Playhouse 
 - [ ] 8/29 - 9/2: DragonCon
 - [ ] 9/6: Hans Zimmer- Gas South Arena
-- [x] 9/6: JPEG Mafia- Eastern- Sara has 1 ticket!
+- [x] - [x] 9/6: JPEG Mafia- Eastern- Sara has 1 ticket!
 - [ ] 9/14: Built to Spill - Variety Playhouse
 - [x] 9/15 (Sun): Idles- Tabernacle- Sara has 4 tickets!
 Sara 🎟️
 Martin 🎟️
 Walter 🎟️
 Patrick 🎟️
-- [ ] 9/21: L5P Summer Concert Series WHORE
+- [ ] - [ ] 9/21: L5P Summer Concert Series WHORE
 - [ ] 9/27: Chrome o - The Eastern
 - [ ] 9/28: Cake - Historic Fourth Ward Skatepark
 - [ ] 9/28: Krungungunabingingabin - The Eastern
-- [x] 9/31 Boner Clowns: Chuckie Cheeze- Sara has 40,000 🎟️
+- [x] - [x] 9/31 Boner Clowns: Chuckie Cheeze- Sara has 40,000 🎟️
 - [x] 10/2: The Hives with Bad Nerves - Tabernacle - Martin has 1 🎟️ 
-- [x] 10/4: Sprints - Masquerade - Sara has 1 🎟️ 
-- [ ] 10/6: Violent Femmes - Atlanta Symphony Hall
+- [x] - [x] 10/4: Sprints - Masquerade - Sara has 1 🎟️ 
+- [ ] - [ ] 10/6: Violent Femmes - Atlanta Symphony Hall
 - [x] 10/9: Fred Again- State Farm Arena
          Sara has 2 tickets 🎟️🎟️
 - [x] 10/10: Lake Street Dive - The Eastern
         Walter/Katie 🎟️🎟️
-- [x] 10/11: Nilüfer Yanya - Terminal West - Martin has 1 🎟️
+- [x] - [x] 10/11: Nilüfer Yanya - Terminal West - Martin has 1 🎟️
 - [x] 10/17: Yard Act - Terminal West
         Martin has 1 🎟️ 
         Sara has 1 🎟️
 - [x] 10/19: FIDLAR - Variety Playhouse 
         Martin has 1 🎟️ 
-- [ ] 10/21: Justice - the Eastern
-- [ ] 10/25 (Fri): Dehd- Terminal Wes
+- [ ] - [ ] 10/21: Justice - the Eastern
+- [ ] - [ ] 10/25 (Fri): Dehd- Terminal Wes
 - [x] 10/27 (Sun): SLIFT + Meatbodies - Terminal West
           PK 🎟️
           SW 🎟️
