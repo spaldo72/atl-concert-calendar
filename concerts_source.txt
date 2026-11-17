@@ -7,15 +7,13 @@ https://spaldo72.github.io/atl-concert-calendar/
 Check marks = Tickets Purchased
 
 Upcoming Events 
-- [ ] 11/15/2026: Giles Corey- Masquerade (purgatory) Sarawants to go - (and is going on a different day in DC)
-- [ ] 11/15/2026: Chat Pile - Masquerade 
-- [x] 11/20/26 - The Bad Plus - ppppp Club @ Wild Haven - Jeff 🎟️ 🎟️
+- [x] 11/20/26 - The Bad Plus - Wild Haven - Jeff 🎟️ 🎟️
 - [x] 11/21/26: Jack White - CC ROXY 🎟️PK/AK 
 - [ ] 11/22/26: DragonForce - The Masquerade (Heaven) 
 - [x] 11/25/26: Angine de Poitrine - The Eastern - Martin 🎟️ 
 - [x] 11/27/26: Rush - State Farm Arena - Martin 🎟️ 
 - [ ] 12/12/26: Charlotte Cornfield - Masquerade (Purgatory) - Seth wants - and @Seth wants what Seth gets
-- [x] 1/9/27: Man or Astro-man? - The Earl - Doors 7:30 PM Show 8:30 PM - Martin 🎟️ 
+- [x] 1/9/27: Man or Astro-man? - The Earl - Doors 7:30 PM Show 8:30 PM - Martin 🎟️ Jeff 🎟️
 - [x] 2/12/27: Jake Xerxes Fussell - The Earl - Seth 🎟️ 
 - [x] 3/3/27: Silversun Pickups - Buckhead Theatre - 7:30 PM - Martin 🎟️
 - [x] 4/29/27: Cleopatrick - The Masquerade Hell - Martin 🎟️
@@ -228,3 +226,5 @@ https://dice.fm/partner/tickets/event/oeaoyr-my-god-is-the-sun-qotsa-tribute-ali
 - [x] 10/28/2026: OSEES - Variety Playhouse Katie and Walter 🎟️ 🎟️
 - [ ] 10/28/2026: GWAR with Midnight, Mac Sabbath, and X-Cops - The Masquerade (Heaven)
 - [x] 11/7/2026: AJJ - Masquerade (Hell)- Sara 🎟️ 
+- [ ] 11/15/2026: Giles Corey- Masquerade (purgatory) Sarawants to go - (and is going on a different day in DC)
+- [ ] 11/15/2026: Chat Pile - Masquerade 
