@@ -7,10 +7,8 @@ https://spaldo72.github.io/atl-concert-calendar/
 Check marks = Tickets Purchased
 
 Upcoming Events 
-- [x] 11/25/26: Angine de Poitrine - The Eastern - Martin 🎟️ Jeff 🎟️
-- [x] 11/27/26: Rush - State Farm Arena - Martin 🎟️ 
 - [ ] 12/12/26: Charlotte Cornfield - Masquerade (Purgatory) - Seth wants - and @Seth wants what Seth gets
-- [x] 1/9/27: Man or Astro-man? - The Earl - Doors 7:30 PM Show 8:30 PM - Martin 🎟️ Jeff 🎟️
+- [x] 1/9/27: Man or Astro-man? - The Earl - Doors 7:30 PM Show 8:30 PM - Martin has an extra because he forgot he’ll be in Canada 🇨🇦 for skiing 🎟️ Jeff 🎟️
 - [x] 2/12/27: Jake Xerxes Fussell - The Earl - Seth 🎟️ 
 - [x] 2/27/27: Legend of Korra live - Fox Theatre- Sara 🎟️ 
 - [x] 3/3/27: Silversun Pickups - Buckhead Theatre - 7:30 PM - Martin 🎟️
@@ -231,3 +229,5 @@ https://dice.fm/partner/tickets/event/oeaoyr-my-god-is-the-sun-qotsa-tribute-ali
 - [x] 11/20/26 - The Bad Plus - Wild Haven - Jeff 🎟️ 🎟️
 - [x] 11/21/26: Jack White - CC ROXY 🎟️PK/AK 
 - [ ] 11/22/26: DragonForce - The Masquerade (Heaven) 
+- [x] 11/25/26: Angine de Poitrine - The Eastern - Martin 🎟️ Jeff 🎟️
+- [x] 11/27/26: Rush - State Farm Arena - Martin 🎟️ 
